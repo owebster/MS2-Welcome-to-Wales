@@ -1,0 +1,14 @@
+.hero-img {
+    height: 100vh;
+    background: url('../images/9346BDE5-92A4-40EC-A3A3-D240E67B24AE_1_105_c.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}

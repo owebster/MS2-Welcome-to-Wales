@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="assets/css/style.css"/>
         <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
         <!--leaflet maps api files-->
-        <link rel="stylesheet" href="leaflet/leaflet.css" />
+        <link rel="stylesheet" href="leaflet/leaflet.css"/>
         <script src="leaflet/leaflet.js"></script>
         <!--bootstrap js-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -34,18 +34,27 @@
                 </div>
             </div>
         </header>
-        <article>
-            <div class="container">
+        <div class="container-fluid">
+            <article>
                 <div class="row">
-                    <div class="col-12">
-                        when scrolling down, have full screen map of wales using maps api
+                    <div class="maps-section col-12">
+                        <div id="mapid"></div> <!--disable touch for smoother scrolling / touching experience-->
                     </div>
-                    <div class="col-12">
-                        after scrolling down from maps, present options for differnt main attractions to see in wales (castles, food, history etc)
+                    <div class="main-attractions col-12">
+                        <h2>Things to do</h2>
+                        <ul>
+                            <li>Castles</li>
+                            <li>Sight Seeing</li>
+                            <li>Food</li>
+                            <li>Family Activites</li>
+                        </ul>
+                    </div>
+                    <div class="bookings col-12">
+                        <h2>A place to stay</h2>
                     </div>
                 </div>
-            </div>
-        </article>
+            </article>
+        </div>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/main.js"></script>
     </body>

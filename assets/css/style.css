@@ -1,4 +1,4 @@
-/* colours */
+/* colours */ /* (welsh red: #D50130, welsh green: #03A943) */
 .down-btn {
     color: #D50130; /*Welsh Red*/
 }
@@ -24,6 +24,7 @@
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, .05);
+    margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -53,6 +54,37 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+/* Map section */
+#mapid { 
+    height: 90vh; 
+    margin: 13% 5%;
+}
+
+/* Main Attractions */
+.main-attractions {
+    background-color: #3F6F51;
+    text-align: center;
+    padding-top: 13%;
+    padding-bottom: 13%;
+}
+
+.main-attractions ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+.main-attractions li {
+    display: inline;
+}
+
+/* Bookings */
+.bookings {
+    text-align: center;
+    padding-top: 13%;
+    padding-bottom: 13%;
 }
 
 /* Hover states */

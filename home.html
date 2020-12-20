@@ -13,7 +13,6 @@
         <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
         <!--leaflet maps api files-->
         <link rel="stylesheet" href="leaflet/leaflet.css" />
-        <link rel="imahes" href="assets/images"/>
         <script src="leaflet/leaflet.js"></script>
         <!--bootstrap js-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -22,14 +21,16 @@
         <title>Welcome To Wales</title>
     </head>
     <body>
-        <header>
+        <header> <!--hero image welcome page-->
             <div class="hero-img">
                 <div class="jumbotron">
-                    <h1 class="display-4">Hello Wales</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    <div class="vertically-cent">
+                        <img class="welshDragon" src="assets/images/welsh-dragon-hero.jpg" alt="Welsh Dragon">
+                        <h1 class="display-4">Welcome to Wales</h1>
+                        <p class="lead">Check out what Wales has to offer for your next visit</p>
+                        <hr class="my-4">
+                        <a class="down-btn" href="#" role="button"><i class="fas fa-angle-down"></i></a>
+                    </div>
                 </div>
             </div>
         </header>

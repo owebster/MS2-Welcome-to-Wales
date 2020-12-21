@@ -65,15 +65,18 @@
 /* Main Attractions */
 .main-attractions {
     height: auto;
-    background-color: #3F6F51;
     text-align: center;
-    padding: 5% 5%;
 }
 
 .card {
-    margin-bottom: 5%;
+    margin: 5% 5%;
     border: none;
 }
+
+.card {
+    background-color: #829c80;
+}
+
 
 /* Bookings */
 .bookings {

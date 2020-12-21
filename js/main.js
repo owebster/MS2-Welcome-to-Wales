@@ -1,9 +1,16 @@
 // leaflet maps
 
+//custom marker icon
+var welshFlag = L.icon({
+    iconUrl: 'assets/images/welsh-flag-pole.png',
+
+    iconSize:     [40, 70], // size of the icon
+});
+
 var mymap = L.map('mapid', {
     scrollWheelZoom: false
 }).setView([52.44, -4], 7.4);
-var marker = L.marker([52.44, -3.6]).addTo(mymap);
+var marker = L.marker([52.44, -3.6], {icon: welshFlag}).addTo(mymap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',

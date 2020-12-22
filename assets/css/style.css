@@ -6,7 +6,7 @@
 /* header */
 .hero-img {
     height: 100vh;
-    background: url('../images/9346BDE5-92A4-40EC-A3A3-D240E67B24AE_1_105_c.jpg') no-repeat center center fixed;
+    background: url('../images/9413ECBE-2CFF-4DDC-9CA4-832EE8105361_1_105_c.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -63,18 +63,19 @@
 }
 
 /* Main Attractions */
-.main-attractions {
-    height: auto;
+
+.main-attractions-heading {
     text-align: center;
+    padding: 8% 0;
 }
 
 .card {
-    margin: 5% 5%;
     border: none;
 }
 
-.card {
-    background-color: #829c80;
+.cards-section {
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 

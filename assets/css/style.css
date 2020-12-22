@@ -3,6 +3,11 @@
     color: #D50130; /*Welsh Red*/
 }
 
+/* full page behaviors */
+html {
+    scroll-behavior: smooth;
+}
+
 /* header */
 .hero-img {
     height: 100vh;
@@ -56,10 +61,34 @@
     transform: translate(-50%, -50%);
 }
 
+/* Navbar */
+#navbar {
+    text-align: center;
+    padding: 1% 0;
+    overflow: hidden;
+    background-color: blue;
+    z-index: 1;
+}
+
+.container {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
 /* Map section */
 #mapid { 
     height: 90vh; 
-    margin: 13% 5%;
+    margin: 10% 5%;
+    z-index: -5;
 }
 
 /* Main Attractions */
@@ -74,8 +103,8 @@
 }
 
 .cards-section {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
 }
 
 

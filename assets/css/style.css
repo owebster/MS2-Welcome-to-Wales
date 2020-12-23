@@ -30,6 +30,7 @@ html {
     text-align: center;
     background-color: rgba(0, 0, 0, .05);
     margin-bottom: 0;
+    padding-bottom: 30px;
 }
 
 .jumbotron h1 {
@@ -61,61 +62,6 @@ html {
     transform: translate(-50%, -50%);
 }
 
-/* Navbar */
-    nav {
-        text-align: center;
-    }
-
-    #navbar {
-        overflow: hidden;
-        background-color: #fff;
-        z-index: 1;
-        width: 100%;
-    }
-
-    #navbar a{
-        display: inline-block;
-        color: #000;
-        padding: 14px;
-        text-decoration: none;
-        text-align: center;
-    }
-
-    #navbar ul > li {
-        display: inline;
-        color: #000;
-    }
-
-    .center-nav {
-        padding: 0;
-        margin: 0;
-    }
-
-    .content {
-        padding: 16px;
-    }
-    
-   
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    .sticky + .content {
-        padding-top: 60px;
-    }
-
-    .nav-wrapper {
-        height: 80px;
-    }
-
-/* Map section */
-    #mapid { 
-        height: 90vh;
-        z-index: -5;
-    }
-
 /* Main Attractions */
 
 .main-attractions-heading {
@@ -132,11 +78,24 @@ html {
     padding-right: 4.5%;
 }
 
+/* Map section */
+#mapid {
+    height: 90vh;
+    z-index: -5;
+}
+
+.maps-section {
+    padding-bottom: 20%;
+}
+
+.mapsTitle {
+    text-align: center;
+    padding: 10%;
+}
 
 /* Bookings */
 .bookings {
     text-align: center;
-    padding-top: 13%;
     padding-bottom: 13%;
 }
 

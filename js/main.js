@@ -1,4 +1,5 @@
  //Get the button:
+
     mybutton = document.getElementById("myBtn");
 
     // When the user scrolls down 20px from the top of the document, show the button
@@ -17,7 +18,6 @@
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
-
 // leaflet maps
 $(document).ready(function(){
     var mymap = L.map('mapid', {

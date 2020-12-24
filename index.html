@@ -96,8 +96,10 @@
             </article>
             <article>
                 <div class="row">
-                    <div class="col-12 mapsTitle">
-                        <h2>Where is Wales ?</h2>
+                    <div> <!--timelaps video of wales as background strip-->
+                        <div class="col-12 mapsTitle">
+                            <h2>Where is Wales ?</h2>
+                        </div>
                     </div>
                     <div class="maps-section col-12">
                         <div id="mapid"></div> <!--disable touch for smoother scrolling / touching experience-->
@@ -108,12 +110,10 @@
                 <div class="row">
                     <div class="bookings col-12">
                         <h2>A place to stay</h2> <!--Use jquery to link to tripadvisor site-->
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Search an area of Wales" aria-label="Search an area of Wales" aria-describedby="button-addon2">
-                            <div class="input-group-append">
-                              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
-                            </div>
-                          </div>
+                        <div class="searcharea">
+                            <input type="text" placeholder="Search an area of Wales" aria-label="Search an area of Wales" class="searchbar">
+                            <button type="submit" class="searchbtn">search</button>
+                        </div>
                     </div>
                 </div>
             </article>

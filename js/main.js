@@ -1,5 +1,4 @@
- //Get the button:
-
+//back to top button
     mybutton = document.getElementById("myBtn");
 
     // When the user scrolls down 20px from the top of the document, show the button
@@ -18,6 +17,8 @@
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
+
+
 // leaflet maps
 $(document).ready(function(){
     var mymap = L.map('mapid', {
@@ -34,3 +35,9 @@ $(document).ready(function(){
         accessToken: 'pk.eyJ1Ijoib3dlYnN0ZXIiLCJhIjoiY2tpeDd2ZWprM3F4cDJ5cWpzZnl5bTFtdyJ9.TkVm9dL3HOFz1F9m7fnaCA' //api key
     }).addTo(mymap);
 });
+
+//search field
+
+$(document).ready(function(){
+    
+})

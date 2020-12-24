@@ -113,12 +113,29 @@ html {
 .mapsTitle {
     text-align: center;
     padding: 10%;
+    background-color: rgba(255, 255, 255, 0.418);
 }
 
 /* Bookings */
 .bookings {
     text-align: center;
     padding-bottom: 13%;
+}
+
+.searcharea {
+    text-align: center;
+    padding: 5%;
+}
+
+.searchbar {
+    width: 70vh;
+    border-radius: 15px;
+
+}
+
+.searchbtn {
+    background-color: #fff;
+    border-radius: 15px;
 }
 
 /* Hover states */

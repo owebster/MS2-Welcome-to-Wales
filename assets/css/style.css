@@ -14,20 +14,19 @@ html {
     position: fixed; 
     bottom: 20px; 
     right: 30px; 
-    z-index: 99; 
+    z-index: 100000; 
     border: none; 
     outline: none; 
-    background-color: #D50130; 
-    color: white; 
+    background-color:#D50130;
+    color: #fff; 
     cursor: pointer; 
-    padding: 15px;
-    border-radius: 50%; 
+    padding: 5px;
+    border-radius: 25%; 
     font-size: 1rem;
+    height: 27px;
+    font-weight: bold;
   }
   
-  #myBtn:hover {
-    background-color: #D50130;
-  }
   
 
 /* header */
@@ -84,6 +83,37 @@ html {
     transform: translate(-50%, -50%);
 }
 
+/* Bookings */
+.bookings {
+    text-align: center;
+    padding-top: 13%;
+    height: 90vh;
+    background: url("../images/9346BDE5-92A4-40EC-A3A3-D240E67B24AE_1_105_c.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.input-group {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 0 10%;
+}
+
+.search-btn {
+    background-color: #D50130;
+}
+
 /* Main Attractions */
 
 .main-attractions-heading {
@@ -92,22 +122,32 @@ html {
 }
 
 .card {
-    border: none;
+    margin: 2% 0;
 }
 
 .cards-section {
-    padding-left: 4.5%;
-    padding-right: 4.5%;
+   padding: 4.5%;
 }
 
+.wales-card {
+    padding: 5% 0;
+    text-align: center;
+}
 /* Map section */
+
+.maps-btn {
+    border: none;
+    margin-bottom: 1%;
+    background-color: #D50130;
+    color: #fff;
+}
+
+.stop {
+    color: #D50130;
+}
+
 #mapid {
     height: 90vh;
-    z-index: -5;
-}
-
-.maps-section {
-    padding-bottom: 20%;
 }
 
 .mapsTitle {
@@ -116,30 +156,20 @@ html {
     background-color: rgba(255, 255, 255, 0.418);
 }
 
-/* Bookings */
-.bookings {
-    text-align: center;
-    padding-bottom: 13%;
+.mapsTitle h2 {
+    display: inline;
 }
 
-.searcharea {
-    text-align: center;
-    padding: 5%;
-}
-
-.searchbar {
-    width: 70vh;
-    border-radius: 15px;
-
-}
-
-.searchbtn {
-    background-color: #fff;
-    border-radius: 15px;
+.maps-section {
+    margin-bottom: 5%;
 }
 
 /* Hover states */
 .down-btn:hover {
     text-emphasis: none;
     color: #D50130;
+}
+
+.search-btn:hover {
+    background-color: #7e001b;
 }

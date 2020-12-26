@@ -35,90 +35,108 @@
                 </div>
             </div>
         </header>
-        <div class="container">
+        <div class="container-fluid">
             <article>
-                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
                 <div class="row">
-                    <div class="main-attractions-heading col-12">
-                        <h2>Things to do</h2>
-                    </div>
-                </div>
-                <div class="row cards-section">
-                    <div class="col-sm-6 col-12">
-                        <div class="card card">
-                            <img src="assets/images/conwy-castle.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-12">
-                        <div class="card card">
-                            <img src="assets/images/conwy-castle.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="card">
-                            <img src="assets/images/conwy-castle.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-12">
-                        <div class="card card">
-                            <img src="assets/images/conwy-castle.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-12">
-                        <div class="card">
-                            <img src="assets/images/conwy-castle.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="card">
-                            <img src="assets/images/conwy-castle.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div class="row">
-                    <div> <!--timelaps video of wales as background strip-->
                         <div class="col-12 mapsTitle">
-                            <h2>Where is Wales ?</h2>
+                            <h2>Wales</h2><h2 class="stop">.</h2>
+                            <p>Wales is part of the United Kingdom, located to the west side of England.
+                                With it's vast history and amazing scenery, there is bound to be something to see and do for everyone.
+                                <br>Book your next visit below or checkout the differnt activities we've listen below and find what's right for you and who you might be travelling with.
+                            </p>
                         </div>
-                    </div>
-                    <div class="maps-section col-12">
-                        <div id="mapid"></div> <!--disable touch for smoother scrolling / touching experience-->
-                    </div>
                 </div>
             </article>
             <article>
                 <div class="row">
                     <div class="bookings col-12">
-                        <h2>A place to stay</h2> <!--Use jquery to link to tripadvisor site-->
-                        <div class="searcharea">
-                            <input type="text" placeholder="Search an area of Wales" aria-label="Search an area of Wales" class="searchbar">
-                            <button type="submit" class="searchbtn">search</button>
+                        <h2>Book your visit!</h2> <!--Use jquery to link to tripadvisor site-->
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="search for your next destination" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                              <button class=" search-btn btn btn-secondary" type="button" id="button-addon2">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <!--<div class="row">
+                    <div class="main-attractions-heading col-12">
+                        <h2>Things to do</h2>
+                    </div>
+                </div>-->
+                <div class="row cards-section">
+                    <div class="col-sm-6 col-12">
+                        <div class="card wales-card">
+                            <h2>North Wales</h2>
+                            <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="card wales-card">
+                            <h2>South Wales</h2>
+                            <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <img src="assets/images/conwy-castle.jpg" class="card-img-top" alt="Photo of Conwy castle">
+                            <div class="card-body">
+                            <h5 class="card-title">Castles</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="card card">
+                            <img src="assets/images/53F69C96-612F-498E-80BF-0F0283D0DFB4_1_105_c.jpg" class="card-img-top" alt="topdown shot of welsh rarebit">
+                            <div class="card-body">
+                            <h5 class="card-title">Food</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="card">
+                            <img src="assets/images/7C98B68A-0888-47E2-8539-A9F5043E4693_1_105_c.jpg" class="card-img-top" alt="image of slate mine light show">
+                            <div class="card-body">
+                            <h5 class="card-title">Family Activities</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="card">
+                            <img src="assets/images/EBCC46F5-1518-4570-BF31-77B97D58EBB2_1_105_c.jpg" class="card-img-top" alt="image of horses ontop of a mountain">
+                            <div class="card-body">
+                            <h5 class="card-title">Mountains</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="maps-section col-12">
+                            <h2>Where is everything?</h2>
+                            <button onclick="castleMarker()" class="maps-btn" role="button">Castles <i class="fab fa-fort-awesome-alt"></i></button>
+                            <button onclick="mountainsMarker()" class="maps-btn" role="button">Mountains</button>
+                            <div id="mapid"></div> <!--disable touch for smoother scrolling / touching experience-->
                         </div>
                     </div>
                 </div>
             </article>
         </div>
     <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/maps.js"></script>
     <script src="js/main.js"></script>
     </body>
 </html>

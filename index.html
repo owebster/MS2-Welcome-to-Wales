@@ -85,6 +85,8 @@
                             <div class="card-body">
                             <h5 class="card-title">Castles</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button id="castle-txt-btn">show more</button>
+                            <p class="castle-txt">testing</p>
                             </div>
                         </div>
                     </div>
@@ -94,6 +96,8 @@
                             <div class="card-body">
                             <h5 class="card-title">Food</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button id="food-txt-btn">show more</button>
+                            <p class="food-txt">testing</p>
                             </div>
                         </div>
                     </div>
@@ -103,6 +107,8 @@
                             <div class="card-body">
                             <h5 class="card-title">Family Activities</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button id="family-txt-btn">show more</button>
+                            <p class="family-txt">testing</p>
                             </div>
                         </div>
                     </div>
@@ -111,7 +117,9 @@
                             <img src="assets/images/EBCC46F5-1518-4570-BF31-77B97D58EBB2_1_105_c.jpg" class="card-img-top" alt="image of horses ontop of a mountain">
                             <div class="card-body">
                             <h5 class="card-title">Mountains</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text hidden-txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button id="mountains-txt-btn">show more</button>
+                            <p class="mountains-txt">testing</p>
                             </div>
                         </div>
                     </div>
@@ -122,8 +130,8 @@
                     <div class="col-12">
                         <div class="maps-section col-12">
                             <h2>Where is everything?</h2>
-                            <button onclick="castleMarker()" class="maps-btn" role="button">Castles <i class="fab fa-fort-awesome-alt"></i></button>
-                            <button onclick="mountainsMarker()" class="maps-btn" role="button">Mountains <i class="fas fa-mountain"></i></button>
+                            <button onclick="castleMarker()" class="maps-castle-btn" role="button">Castles <i class="fab fa-fort-awesome-alt"></i></button>
+                            <button onclick="mountainsMarker()" class="maps-mountain-btn" role="button">Mountains <i class="fas fa-mountain"></i></button>
                             <div id="mapid"></div> <!--disable touch for smoother scrolling / touching experience-->
                         </div>
                     </div>

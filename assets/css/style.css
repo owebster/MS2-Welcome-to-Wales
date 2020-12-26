@@ -128,9 +128,15 @@ html {
     padding: 5% 0;
     text-align: center;
 }
+
+.castle-txt, .food-txt, .family-txt, .mountains-txt {
+    display: none;
+}
+
+
 /* Map section */
 
-.maps-btn {
+.maps-castle-btn, .maps-mountain-btn {
     border: none;
     margin-bottom: 1%;
     background-color: #D50130;

@@ -21,3 +21,21 @@ document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 //search field (https://tripadvisor.co.uk/Search?q=${userInput})
     searchButton = document.getElementById("searchbtn")
     searchBar = document.getElementById("searchbar")
+
+
+//family card expanding button
+$("#castle-txt-btn").click(function(){
+    $(".castle-txt").slideToggle();
+});
+
+$("#food-txt-btn").click(function(){
+    $(".food-txt").slideToggle();
+});
+
+$("#family-txt-btn").click(function(){
+    $(".family-txt").slideToggle();
+});
+
+$("#mountains-txt-btn").click(function(){
+    $(".mountains-txt").slideToggle();
+});

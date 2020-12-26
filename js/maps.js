@@ -31,3 +31,7 @@ function mountainsMarker(){
     var marker = L.marker([52.4167, -3.5000]).addTo(mymap).bindPopup('<p>Cambrian Mountains</p>'); //Cambrian Mountains
     var marker = L.marker([51.9667, -3.1167]).addTo(mymap).bindPopup('<p>Black Mountain Range</p>'); //Black Mountain Range
 }
+
+$('maps-castle-btn').click(function(){
+    $(this).toggle(castleMarker())
+})

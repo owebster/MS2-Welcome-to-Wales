@@ -116,11 +116,6 @@ html {
 
 /* Main Attractions */
 
-.main-attractions-heading {
-    text-align: center;
-    padding: 8% 0;
-}
-
 .card {
     margin: 2% 0;
 }
@@ -150,18 +145,9 @@ html {
     height: 90vh;
 }
 
-.mapsTitle {
-    text-align: center;
-    padding: 10%;
-    background-color: rgba(255, 255, 255, 0.418);
-}
-
-.mapsTitle h2 {
-    display: inline;
-}
-
 .maps-section {
     margin-bottom: 5%;
+    text-align: center;
 }
 
 /* Hover states */

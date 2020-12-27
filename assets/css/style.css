@@ -3,6 +3,10 @@
     color: #D50130; /*Welsh Red*/
 }
 
+.stop, .exclamation {
+    color: #D50130;
+}
+
 /* full page behaviors */
 html {
     scroll-behavior: smooth;
@@ -136,15 +140,21 @@ html {
 
 /* Map section */
 
+.welcomeTitle {
+    margin: 3% 0;
+    text-align: center;
+}
+
+.welcomeTitle h2, .bookings h2 {
+    display: inline;
+}
+
+
 .maps-castle-btn, .maps-mountain-btn {
     border: none;
     margin-bottom: 1%;
     background-color: #D50130;
     color: #fff;
-}
-
-.stop {
-    color: #D50130;
 }
 
 #mapid {

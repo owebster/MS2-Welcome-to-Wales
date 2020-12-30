@@ -7,6 +7,11 @@
     color: #D50130;
 }
 
+.card-button {
+    background-color: #D50130;
+    color: #fff;
+}
+
 /* full page behaviors */
 html {
     scroll-behavior: smooth;
@@ -24,11 +29,13 @@ html {
     background-color:#D50130;
     color: #fff; 
     cursor: pointer; 
-    padding: 5px;
     border-radius: 25%; 
     font-size: 1rem;
     height: 27px;
+    width: 27px;
     font-weight: bold;
+    line-height: 30px;
+    text-align: center;
   }
   
   
@@ -87,6 +94,22 @@ html {
     transform: translate(-50%, -50%);
 }
 
+/* Welcome Paragraph */
+.welcomeTitle {
+    margin: 5% 0;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.welcomeTitle h2, .bookings h2 {
+    display: inline;
+}
+
+.welcomeTitle p {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
 /* Bookings */
 .bookings {
     text-align: center;
@@ -136,20 +159,17 @@ html {
 
 .castle-txt, .food-txt, .family-txt, .mountains-txt {
     display: none;
+    list-style: circle;
 }
 
+.card-button, .maps-castle-btn, .maps-mountain-btn {
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+}
 
 /* Map section */
-
-.welcomeTitle {
-    margin: 3% 0;
-    text-align: center;
-}
-
-.welcomeTitle h2, .bookings h2 {
-    display: inline;
-}
-
 
 .maps-castle-btn, .maps-mountain-btn {
     border: none;

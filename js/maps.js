@@ -42,9 +42,6 @@ function mountainsMarker(){
 //on clikc functions for each marker section
 $('.maps-castle-btn').click(function(){
     castleMarker();
-    if (castleMarker) {
-        marker.remove()
-    }
 });
 
 $('.maps-mountain-btn').click(function(){

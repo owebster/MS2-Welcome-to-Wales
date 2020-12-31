@@ -162,7 +162,7 @@ html {
     list-style: circle;
 }
 
-.card-button, .maps-castle-btn, .maps-mountain-btn {
+.card-button, .maps-castle-btn, .maps-mountain-btn, .maps-slate-btn, .maps-activities-btn, .maps-zoos-btn {
     border: none;
     border-radius: 15px;
     text-align: center;
@@ -171,7 +171,7 @@ html {
 
 /* Map section */
 
-.maps-castle-btn, .maps-mountain-btn {
+.maps-castle-btn, .maps-mountain-btn, .maps-slate-btn, .maps-activities-btn, .maps-zoos-btn {
     border: none;
     margin-bottom: 1%;
     background-color: #D50130;

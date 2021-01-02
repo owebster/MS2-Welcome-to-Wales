@@ -12,6 +12,15 @@
     color: #fff;
 }
 
+.search-btn {
+    background-color: #D50130;
+    border: #D50130;
+}
+
+footer {
+    background-color: #D50130;
+}
+
 /* full page behaviors */
 html {
     scroll-behavior: smooth;
@@ -21,8 +30,8 @@ html {
 #myBtn {
     display: none;
     position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
+    bottom: 90px; 
+    right: 50px; 
     z-index: 100000; 
     border: none; 
     outline: none; 
@@ -137,11 +146,6 @@ html {
     padding: 0 10%;
 }
 
-.search-btn {
-    background-color: #D50130;
-    border: #D50130;
-}
-
 /* Main Attractions */
 
 .card {
@@ -187,6 +191,27 @@ html {
     text-align: center;
 }
 
+/* footer */
+footer {
+   padding: 5px;
+}
+
+.footer-list {
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li > a {
+    color: #fff;
+}
+
+ul > #inline{
+    display: inline;
+}
+
 /* Hover states */
 .down-btn:hover {
     text-emphasis: none;
@@ -195,4 +220,9 @@ html {
 
 .search-btn:hover {
     background-color: #7e001b;
+}
+
+.footer-list li > a:hover {
+    text-decoration: none;
+    color: #fff;
 }

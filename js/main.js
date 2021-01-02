@@ -1,75 +1,38 @@
-//smoothscrolling on safari
-(function($) {
-    $.fn.SmoothAnchors = function() {
-
-        function scrollBodyTo(destination, hash) {
-
-            // Change the hash first, then do the scrolling. This retains the standard functionality of the back/forward buttons.
-            var scrollmem = $(document).scrollTop();
-            window.location.hash = hash;
-            $(document).scrollTop(scrollmem);
-            $("html,body").animate({
-                scrollTop: destination
-            }, 200);
-
-        }
-
-        if (typeof $().on == "function") {
-            $(document).on('click', 'a[href^="#"]', function() {
-
-                var href = $(this).attr("href");
-
-                if ($(href).length == 0) {
-
-                    var nameSelector = "[name=" + href.replace("#", "") + "]";
-
-                    if (href == "#") {
-                        scrollBodyTo(0, href);
-                    }
-                    else if ($(nameSelector).length != 0) {
-                        scrollBodyTo($(nameSelector).offset().top, href);
-                    }
-                    else {
-                        // fine, we'll just follow the original link. gosh.
-                        window.location = href;
-                    }
-                }
-                else {
-                    scrollBodyTo($(href).offset().top, href);
-                }
-                return false;
-            });
-        }
-        else {
-            $('a[href^="#"]').click(function() {
-                var href = $(this).attr("href");
-
-                if ($(href).length == 0) {
-
-                    var nameSelector = "[name=" + href.replace("#", "") + "]";
-
-                    if (href == "#") {
-                        scrollBodyTo(0, href);
-                    }
-                    else if ($(nameSelector).length != 0) {
-                        scrollBodyTo($(nameSelector).offset().top, href);
-                    }
-                    else {
-                        // fine, we'll just follow the original link. gosh.
-                        window.location = href;
-                    }
-                }
-                else {
-                    scrollBodyTo($(href).offset().top, href);
-                }
-                return false;
-            });
-        }
-    };
-})(jQuery);
-
-$(document).ready(function() {
-    $().SmoothAnchors();
+//smooth scrolling for safari
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
 });
 
 //back to top button

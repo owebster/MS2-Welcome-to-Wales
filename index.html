@@ -23,7 +23,7 @@
     </head>
     <body>
         <header> <!--hero image welcome page-->
-            <div class="hero-img" role="img" aria-label="[Image of rooftops tooking out to coast in Deganwy, Wales]">
+            <div id="top" class="hero-img" role="img" aria-label="[Image of rooftops tooking out to coast in Deganwy, Wales]">
                 <div class="jumbotron">
                     <div class="vertically-cent">
                         <img class="welshDragon" src="assets/images/welsh-dragon-hero.jpg" alt="Welsh Dragon">
@@ -50,7 +50,7 @@
             </article>
             <article>
                 <div class="row">
-                    <div class="bookings col-12">
+                    <div id="bookings" class="bookings col-12">
                         <h2>Book your visit</h2><h2 class="exclamation">!</h2><!--Use jquery to link to tripadvisor site-->
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Search for a city" aria-label="Recipient's username" aria-describedby="button-addon2">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </article>
-            <article>
+            <article id="locations">
                 <div class="row cards-section">
                     <div class="col-sm-6 col-12">
                         <div class="card wales-card">
@@ -190,6 +190,17 @@
                 </div>
             </article>
         </div>
+        <footer>
+            <div>
+                <ul class="footer-list">
+                    <li><a href="#top">Cymru</a></li>
+                    <li id="inline"><a href="#bookings">Bookings</a></li>
+                    <li id="inline"> | </li>
+                    <li id="inline"><a href="#locations">Locations</a></li>
+                    <li>© 2021 Wales</li>
+                </ul>
+            </div>
+        </footer>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/maps.js"></script>
     <script src="js/main.js"></script>

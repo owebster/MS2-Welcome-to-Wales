@@ -1,5 +1,5 @@
 //back to top button
-$(document).ready(function(){
+
   mybutton = document.getElementById("myBtn");
 
       // When the user scrolls down 20px from the top of the document, show the button
@@ -18,7 +18,11 @@ $(document).ready(function(){
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
       }
-})
+
+      $('#myBtn').click(function(){
+        topFunction();
+      });
+
 //search field (https://tripadvisor.co.uk/Search?q=${userInput})
     searchButton = document.getElementById("searchbtn")
     searchBar = document.getElementById("searchbar")

@@ -2,8 +2,6 @@
  Milestone Project #2 - a travel site for visiting Wales
 ![mockup_image]()
 ## An Overview
-This website for the band Fleetwood Mac is created for my first milestone project. For my first project I wanted to build a website showcasing my knowledge of how to use HTML, CSS and Bootstrap together and individually. 
-Showcasing not only a mobile first approach but also how it scales to other devices. I settled on the idea of building a website for a band because of the current frustration with artist/band websites where as a user/customer, I cannot get everything I want from most sites (including Fleetwood Mac's own site) and most of them are not as easy to navigate (most rely on taking you to external sites for samples, latest news and latest tour details). So this site was built to be simplistic to use, yet filled with the relevant details a user would want if they're visiting the stie for the first time or if they're coming back for more. In this document I will go through what I have built and why, including the ideas I want to implement in the future that I have not been able to so far due to the fact that I have not yet learnt certain languages / frameworks that I would need to include ideas into my first project.
 
 View a live version of my site [here]()
 

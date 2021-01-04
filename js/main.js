@@ -1,39 +1,24 @@
-//smooth scrolling for safari
-$(document).ready(function(){
-  $('a').on('click', function(event){
-    if(this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800 function(){
-
-        window.location.hash = hash;
-      });
-    }
-  });
-});
-
 //back to top button
-mybutton = document.getElementById("myBtn");
+$(document).ready(function(){
+  mybutton = document.getElementById("myBtn");
 
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
 
-    function scrollFunction() {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-    }
+      function scrollFunction() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+          mybutton.style.display = "block";
+      } else {
+          mybutton.style.display = "none";
+      }
+      }
 
-    
-    function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-
+      
+      function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+})
 //search field (https://tripadvisor.co.uk/Search?q=${userInput})
     searchButton = document.getElementById("searchbtn")
     searchBar = document.getElementById("searchbar")

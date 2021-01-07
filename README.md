@@ -2,8 +2,12 @@
  Milestone Project #2 - a travel site for visiting Wales
 ![mockup_image]()
 ## An Overview
+For my second milestone project I have chosen to build a travel site for things to do in Wales. This project is built using HTML, CSS, Javascript and accompanying frameworks. Show casing mobile first design, useage of API's and a deeper dive into my current front end development knowledge with more confident use of HTML and CSS but also Javascript.
 
-View a live version of my site [here]()
+I decided on building a sit for visiting Wales because I wanted an easy to view experience for anyone who's deciding on their next getaway.
+This site is simplistic to use and has a good flow between different sections which tie into eachother.
+
+View a live version of my site [here](https://owebster.github.io/MS2-Welcome-to-Wales)
 
 ## Table of content
    * [UX](#ux) 
@@ -25,7 +29,10 @@ View a live version of my site [here]()
 
 ## UX
 ### The Experience:
+I wanted to create a site where it's user friendly in deisgn and allows the user to flow explore the site easily and in a way that makes sence in terms of it's flow but to also have the most relelvant information that's needed for a travel site. 
+Such as the local weather, things to do in the area and also a bit of history to provide a site that's to everyone's tastes. Or map markers holding information about it's marked place to provide more detail. I've made sure each button is working accordinly as well as having a site that's accessible to all and meets the speed requirements a user expects on a modern site (more on speed and accessibility in the testing section).
 
+ 
 
 ### Journey of the Site:
 ->
@@ -88,7 +95,7 @@ The site was built with accessibility needs in mind.
 
 ## Features
 ### Current:
-   s
+   
 
 ### Future:
   

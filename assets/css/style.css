@@ -3,7 +3,7 @@
     color: #D50130; /*Welsh Red*/
 }
 
-.stop, .exclamation {
+.stop {
     color: #D50130;
 }
 
@@ -111,7 +111,7 @@ html {
     text-align: center;
 }
 
-.welcomeTitle h2, .bookings h2 {
+.welcomeTitle h2, .weather-section h2 {
     display: inline;
 }
 
@@ -120,36 +120,35 @@ html {
     font-weight: 200;
 }
 
-/* Bookings */
-.bookings {
-    text-align: center;
-    padding-top: 13%;
+/* weather */
+.weather-section {
+    padding-top: 8%;
     height: 90vh;
     background: url("../images/9346BDE5-92A4-40EC-A3A3-D240E67B24AE_1_105_c.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+}
+
+.weather-heading {
+    text-align: center;
     align-items: center;
     justify-content: center;
     position: relative;
-    
+
 }
 
-.input-group {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    padding: 0 10%;
+.weather-card {
+    width: 18rem;
+    height: 10rem;
+    text-align: center;
+    margin: auto;
 }
 
 /* Main Attractions */
 
-.card {
+.activities-card {
     margin: 2% 0;
 }
 

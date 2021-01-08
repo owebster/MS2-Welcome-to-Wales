@@ -46,7 +46,7 @@ Such as the local weather, things to do in the area and also a bit of history to
 
 
 ### Colours:
-
+For the colours of the site I based the colour scheme off the colours of the Welsh flag. I primairly used the red from the flad as accent colours to add emphasis on buttons, full stops and exclamation marks to draw the user's attention to those areas even when someone is scrolling throgh the website with no particular aim.
 
 
 ## UI 

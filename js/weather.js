@@ -1,1 +1,12 @@
-// api.openweathermap.org/data/2.5/weather?q={cardiff}&appid={983533143e870dc758b970f7b3eb380b}
+// http://api.weatherstack.com/current?access_key=be6ea8e1d22896aa92288375aa53cb4f&query=Cardiff
+var xhr = new XMLHttpRequest();
+
+xhr.open("GET", "http://api.weatherstack.com/current?access_key=be6ea8e1d22896aa92288375aa53cb4f&query=Cardiff")
+
+xhr.send();
+
+xhr.onreadystatechange = function(){
+    if(this.readyState == 4 && this.status == 200) {
+        console.log(JSON.parse(this.responseText));
+    }
+};

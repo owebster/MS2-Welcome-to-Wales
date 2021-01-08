@@ -1,5 +1,4 @@
 // leaflet maps
-
 //initiating map
 var mymap = L.map('mapid', {
     scrollWheelZoom: false

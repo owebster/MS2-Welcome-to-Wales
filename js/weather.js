@@ -20,7 +20,7 @@ window.addEventListener('load', ()=> {
             const {temperature, summary, icon} = data.currently;
             temperatureDegree.textContent = Math.floor((temperature - 32) * (5 / 9));
             currentDescription.textContent = summary;
-            locationTimezone.textContent = data.timezone;
+            
             // set icons
             setIcons(icon, document.querySelector('.weatherIcon'));
         });

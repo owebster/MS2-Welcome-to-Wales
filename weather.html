@@ -5,8 +5,17 @@
         <script src="js/weather.js"></script>
     </head>
     <body>
-        <button onclick="writeToDocument('temperature')">temperature</button>
-        <button onclick="writeToDocument('weather_icons')">icon</button>
-        <div id="weatherData"></div>
+        <div id="weatherData">
+            <h1 class="weatherIcon"></h1>
+        </div>
+        <div class="temperature">
+            <h2 class="temperatureDegree"></h2>
+        </div>
+        <div class="weatherDescription">
+            <h3 class="currentDescription"></h3>
+        </div>
+        <div class="weatherLocation">
+            <h3 class="locationTimezone"></h3>
+        </div>
     </body>
 </html>

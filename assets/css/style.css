@@ -139,8 +139,15 @@ html {
 
 }
 
+.weather-api {
+    text-align: center;
+    height: 50vh;
+   
+    background-color: rgba(90, 86, 86, 0.712);
+}
+
 .degree-section {
-    display: flex;
+    display: inline;
     align-items: center;
 }
 

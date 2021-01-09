@@ -139,12 +139,12 @@ html {
 
 }
 
-.weather-card {
-    width: 18rem;
-    height: 10rem;
-    text-align: center;
-    margin: auto;
+.degree-section {
+    display: flex;
+    align-items: center;
 }
+
+
 
 /* Main Attractions */
 

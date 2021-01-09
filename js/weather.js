@@ -5,11 +5,9 @@ window.addEventListener('load', ()=> {
 
     let lat = 51.4816;
     let long = -3.1791; // cardiff lat long
-    let weatherIcon = document.querySelector('.weatherIcon');
     let temperatureDegree = document.querySelector('.temperatureDegree')
     let currentDescription = document.querySelector('.currentDescription')
     let locationTimezone = document.querySelector('.locationTimezone')
-
     const proxy = "https://cors-anywhere.herokuapp.com/";
     const api = `${proxy}https://api.darksky.net/forecast/5d55e2e606650c0ef689fa5fd436c424/${lat},${long}`;
 
@@ -18,10 +16,18 @@ window.addEventListener('load', ()=> {
             return response.json();
         })
         .then(data => {
-            console.log(data);
-            const {temperature, summary} = data.currently;
-            temperatureDegree.textContent = temperature;
+            //console.log(data);
+            const {temperature, summary, icon} = data.currently;
+            temperatureDegree.textContent = Math.floor((temperature - 32) * (5 / 9));
             currentDescription.textContent = summary;
             locationTimezone.textContent = data.timezone;
+            // set icons
+            setIcons(icon, document.querySelector('.weatherIcon'));
         });
+    function setIcons(icon, iconID){
+        const skycons = new Skycons({color: "black"});
+        const currentIcon = icon.replace(/-/g, "_").toUpperCase();
+        skycons.play()
+        return skycons.set(iconID, Skycons[currentIcon])
+    }
 });

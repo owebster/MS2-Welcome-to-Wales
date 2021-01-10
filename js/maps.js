@@ -90,16 +90,16 @@ $('.maps-castle-btn').click(function(){
 
 $('.maps-mountain-btn').click(function(){
     mountainsMarker();
-})
+});
 
 $('.maps-slate-btn').click(function(){
     slateMineMarkers();
-})
+});
 
 $('.maps-activities-btn').click(function(){
     activitiesMarkers();
-})
+});
 
 $('.maps-zoos-btn').click(function(){
     zooMarkers();
-})
+});

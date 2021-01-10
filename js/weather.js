@@ -7,7 +7,6 @@ window.addEventListener('load', ()=> {
     let long = -3.1791; // cardiff lat long
     let temperatureDegree = document.querySelector('.temperatureDegree')
     let currentDescription = document.querySelector('.currentDescription')
-    let locationTimezone = document.querySelector('.locationTimezone')
     const proxy = "https://cors-anywhere.herokuapp.com/";
     const api = `${proxy}https://api.darksky.net/forecast/5d55e2e606650c0ef689fa5fd436c424/${lat},${long}`;
 

@@ -1,5 +1,10 @@
 /*colours*/ 
-/*(welsh red: #D50130, welsh green: #03A943)*/
+/*(welsh red: #D50130, welsh green: #03A943) off white #FBF9FA*/
+
+body {
+    background-color: #FBF9FA;
+}
+
 .down-btn {
     color: #D50130; /*Welsh Red*/
 }

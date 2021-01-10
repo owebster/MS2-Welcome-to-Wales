@@ -108,6 +108,8 @@ The site was built with accessibility needs in mind.
 
 ### CSS
 
+### JS
+
 
 <img src="" alt="screenshot of CSS w3 Validation completion checks, passed" width="576" height="360" />
 

@@ -54,7 +54,7 @@ $("#food-txt-btn").click(function(){
 });
 
 $("#family-txt-btn").click(function(){
-    $(".family-txt").slideToggle();
+    $(".family-txt-section").slideToggle();
 });
 
 $("#mountains-txt-btn").click(function(){

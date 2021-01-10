@@ -3,6 +3,7 @@
 
 body {
     background-color: #FBF9FA;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .down-btn {
@@ -54,8 +55,6 @@ html {
     text-align: center;
 }
   
-  
-
 /* header */
 .hero-img {
     height: 100vh;
@@ -124,6 +123,11 @@ html {
 .welcomeTitle p {
     font-size: 1.2rem;
     font-weight: 200;
+}
+
+/*Navbar*/
+.navbar-nav ul > li{
+    display: inline !important;
 }
 
 /* weather */
@@ -281,6 +285,10 @@ ul > .inline{
 }
 
 /* Hover states */
+ul.navbar-nav a:hover{
+    color: #D50130 !important;
+}
+
 .down-btn:hover {
     text-emphasis: none;
     color: #D50130;

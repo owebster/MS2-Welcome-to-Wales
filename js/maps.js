@@ -16,7 +16,26 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 //castle markers
-var marker;
+var marker; //= new Array();
+
+/* var castles = [{'lat':'51.7696', 'long':'-4.4620'},{'lat':'53.1391', 'long':'-4.2769'},{'lat':'51.7702', 'long':'-2.8499'},{'lat':'51.8766', 'long':'-4.0181'},{'lat':'51.5931', 'long':'-2.7423'},{'lat':'53.2801', 'long':'-3.8256'},{'lat':'52.6499', 'long':'-3.1613'},{'lat':'52.9354', 'long':'-3.0894'},{'lat':'52.0572', 'long':'-4.6342'},{'lat':'51.5761', 'long':'-3.2202'}];
+var castlePopups = ['Laugharne Castle'];
+function castleWrap() {
+    for(i=0;i<castles.length;i++){
+        var castleMarker = new L.marker([castles[i].lat, castles[i].long]);
+        var castlePopupMessage = new L.bindPopup(castlePopups[i]);
+        marker.push(castleMarker);
+        marker.bindPopup(castlePopupMessage);
+        mymap.addLayer(marker[i]);
+    }
+}
+
+function markerDelAgain() {
+    for(i=0;i<castles.length;i++) {
+        mymap.removeLayer(marker[i]);
+    }  
+} */
+
 function castleMarker(){ //when user clicks on castle button, add these markers to map to show where the castles are
     marker = new L.marker([51.7696, -4.4620]).addTo(mymap).bindPopup('<p>Laugharne Castle</p>'); //Laugharne Castle
     marker = new L.marker([53.1391, -4.2769]).addTo(mymap).bindPopup('<p>Caernarfon Castle</p>'); //Caernarfon Castle
@@ -66,7 +85,7 @@ function zooMarkers(){
 
 //on clikc functions for each marker section
 $('.maps-castle-btn').click(function(){
-    castleMarker();
+   castleMarker();
 });
 
 $('.maps-mountain-btn').click(function(){

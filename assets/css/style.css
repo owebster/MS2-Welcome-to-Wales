@@ -123,21 +123,15 @@ html {
 /* weather */
 .weather-section {
     padding-top: 8%;
-    height: 80vh;
+    height: 90vh;
     background: url("../images/9346BDE5-92A4-40EC-A3A3-D240E67B24AE_1_105_c.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     position: relative;
     font-size: 1rem;
-
-    border-radius: 15px;
 
     -moz-box-shadow:    inset 0 0 5px #3b3b3b;
     -webkit-box-shadow: inset 0 0 5px #3b3b3b;
@@ -148,18 +142,66 @@ html {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-bottom: 0px;
-    padding-right: 2%;
+    padding-bottom: 5%;
+    padding-right: 0%;
 }
 
 .weatherAPI {
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .weatherIcon {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
+}
+
+.temperature > span{
+    color: #D50130;
+}
+
+@media screen and (min-width: 960px){ /* to adjust text layout on api on screens larger than mobile devices */
+    .weather-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .weather-heading {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0px;
+        padding-right: 2%;
+    }
+
+    .weatherAPI {
+        text-align: center;
+        margin-bottom: 5%;
+        
+        margin: 0;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        -ms-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+    }
+
+    .weatherIcon {
+        height: 120px;
+        width: 120px;
+    }
+
+    .temperature > span{
+        color: #D50130;
+    }
 }
 
 /* Main Attractions */
@@ -199,7 +241,7 @@ html {
 }
 
 #mapid {
-    height: 90vh;
+    height: 80vh;
 }
 
 .maps-section {

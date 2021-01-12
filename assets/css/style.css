@@ -126,6 +126,10 @@ html {
 }
 
 /*Navbar*/
+.navbar {
+    background-color: rgba(243, 243, 243, 0.877);
+}
+
 .navbar-nav ul > li{
     display: inline !important;
 }

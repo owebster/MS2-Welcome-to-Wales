@@ -3,9 +3,10 @@
 ![mockup_image]()
 ## An Overview
 For my second milestone project I have chosen to build a travel site for things to do in Wales. This project is built using HTML, CSS, Javascript and accompanying frameworks. Show casing mobile first design, useage of API's and a deeper dive into my current front end development knowledge with more confident use of HTML and CSS but also Javascript.
-
 I decided on building a sit for visiting Wales because I wanted an easy to view experience for anyone who's deciding on their next getaway.
 This site is simplistic to use and has a good flow between different sections which tie into eachother.
+
+In this document I will go through what I've built and why, as well as future goals and testing that's been done to make sure this site is functional in what it offers as well as across multiple device types, from mobile to desktop.
 
 View a live version of my site [here](https://owebster.github.io/MS2-Welcome-to-Wales)
 
@@ -32,17 +33,18 @@ View a live version of my site [here](https://owebster.github.io/MS2-Welcome-to-
 I wanted to create a site where it's user friendly in deisgn and allows the user to flow explore the site easily and in a way that makes sence in terms of it's flow but to also have the most relelvant information that's needed for a travel site. 
 Such as the local weather, things to do in the area and also a bit of history to provide a site that's to everyone's tastes. Or map markers holding information about it's marked place to provide more detail. I've made sure each button is working accordinly as well as having a site that's accessible to all and meets the speed requirements a user expects on a modern site (more on speed and accessibility in the testing section).
 
- 
-
 ### Journey of the Site:
-->
+The site starts off with a full page image of the coast lines of North Wales with a title and short description on the what the site will offer. This gives the user a clear understanding on what the site offers. Meaning that without any further interaction they will know that it is a website to showcase some quick details on Wales.
 
-   * 
+   * From hero image on at the top, the user can either scroll with their mouse or finger to the enxt section of the site or they can click the down arrow which guides the user down as well.
 
-   * 
+   * The user is then greated with a short paragraph about Wales, giving a quick description about Wales and it's location (more on why this matters in "site owner goals" ).
    
-   * `_blank` <!--inline code-->
+   * Following the welcome paragraph, the user is shown the current weather in Cardiff - the capital of Wales. This is done with the Dark Sky API with some JS to inject the information onto the document. Showing an animated image of the weather for a quick and clear idea, as well as the actual temperture and a written description of the weather. E.G. Overcast.
 
+   * After the weather section, the user is greated with the information cards section where it starts off with 2 cards about Wales. This is sorted with Bootstrap's `col` class where the cards in mobile view are sorted by `col-12` so on smaller screen devices they are listed one on top of eachother to make sure information is not cramped next to each other and is easier to view. On  medium / large screen devices, this changes to `col-sm-6` to utlise screen that have a larger area.
+
+   * Onto the final main section of the site which is the maps section where users can select differnt activities and see where in Wales they are without having to leave the site. This is intergrated with the Leaflet API along with JS to make the buttons functional. For example, in the maps section there is a castle button which when the user toggles the button (using the jquery command `$(btnName).click(function(task){})`), it places map markers to show where the top castles are in Wales.
 
 
 ### Colours:

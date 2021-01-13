@@ -64,7 +64,9 @@ The site is built to be modern and mobile first. It's features are also supporte
 
    * The navbar is then visable once the user scrolls down from the hero image, and is built to be stuck to the top with `sticky-top` from bootstrap's libary. Allowing users to always have the core navigation features to be present. The navbar is deisgned to be semi translucent to create a layering effect, so when users scroll down the page will experience the page "dissapear" behind the nav-bar, which is a deisgn feature present in some modern software. I chose to do this to offer a differnt feeling but to also algin with newer software design present in modern smart devices and computers.
 
-   
+   * Smooth scrolling is included on the entire page even for safari which has been included with some Javascript.
+
+   * `col` is used throughout the page to make sure every section scales according to screensize and orientation.
 
 
 ## Objectives

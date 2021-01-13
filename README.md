@@ -46,6 +46,11 @@ The site starts off with a full page image of the coast lines of North Wales wit
 
    * Onto the final main section of the site which is the maps section where users can select differnt activities and see where in Wales they are without having to leave the site. This is intergrated with the Leaflet API along with JS to make the buttons functional. For example, in the maps section there is a castle button which when the user toggles the button (using the jquery command `$(btnName).click(function(task){})`), it places map markers to show where the top castles are in Wales.
 
+   * The site itself features both a nav bar and a footer as well. With the navbar, I have placed it under the main hero image, meaning that it is not visable until the user scrolls down from the top. Once they have scrolled down they are then greated with the navbar which is `sticky-top` meaning that it's at the top of the screen when ever the user is going between differnt sections, but not when they go back to the hero image.
+   The footer shows the important navigation functions for the site for users to quickly go back to certain sections like the weather section and the activity cards section.
+
+   * A feature that is on the site is a back to top button that appears when the user scrolls down from the top of the site, allowing the user to quickly go back to top if they wanted to.
+
 
 ### Colours:
 For the colours of the site I based the colour scheme off the colours of the Welsh flag. I primairly used the red from the flad as accent colours to add emphasis on buttons, full stops and exclamation marks to draw the user's attention to those areas even when someone is scrolling throgh the website with no particular aim.
@@ -54,7 +59,6 @@ For the colours of the site I based the colour scheme off the colours of the Wel
 ## UI 
 ### The Interface:
 
-   * 
 
 
 ## Objectives

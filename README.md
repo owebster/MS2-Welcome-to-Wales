@@ -144,11 +144,19 @@ I used to push to github and change/create branches when I wanted to test out ne
 
 ### Questions asked to users
 
+
 ## Credits:
    * [Bootstrap](https://getbootstrap.com/)
    * [ColorTools](https://www.colortools.net/color_complementary.html) for picking complenmentary and contrasting colours
    * My mentor Spencer for helping me along the way on my first project.
    * Everyone who had a look and commented on peer to peer code review on slack
-
+   * [Stackoverflow](https://www.w3schools.com/howto/howto_css_center-vertical.asp) for vertically and horizontally centring a div
+   * [Stackoverflow](https://stackoverflow.com/questions/12427965/jquery-smooth-scroll-issue-on-safari-mac-os) for safari smooth scrolling
+   * [StackOVerflow](https://stackoverflow.com/questions/41256026/clear-marker-layers-leaflet) for leaflet remove layers + markers
+   * [BBC-Good-Foods](https://www.bbcgoodfood.com/howto/guide/top-10-foods-try-wales) for food history and food types
+   * [Favicon](https://favicon.io/emoji-favicons/flag-wales/) for favicon generator
+   * [Darksky-Con](https://darkskyapp.github.io/skycons/) for animated dark sky icons to go along with dark sky api
+   * [W3School](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) for back to top button
+   * Dev Ed on youtube for tutorial on Javascript
 
 ### [Back to Top](#an-overview)

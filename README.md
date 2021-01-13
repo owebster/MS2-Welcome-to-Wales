@@ -54,11 +54,17 @@ The site starts off with a full page image of the coast lines of North Wales wit
 
 ### Colours:
 For the colours of the site I based the colour scheme off the colours of the Welsh flag. I primairly used the red from the flad as accent colours to add emphasis on buttons, full stops and exclamation marks to draw the user's attention to those areas even when someone is scrolling throgh the website with no particular aim.
-
+Another reason for choosing `#D50130` as the primary accent colour is also because it's a good contrast over most other colours, meaning that on an accessibility stand point, it'll be easier to identify over the "lighter" colours on the rest of the site.
 
 ## UI 
 ### The Interface:
+The site is built to be modern and mobile first. It's features are also supported across multiple browsers. This is shown in differnt parts of the site:
+   
+   * The hero image is designed to scale on differnt screen sizes but still taking up the equal amount of the screen to make it feel like it's a "landing page", so weather the user arrives to the site on a mobile device or a desktop device with a larger screen, it will seem more like a app (or web app) compared to other travel sites.
 
+   * The navbar is then visable once the user scrolls down from the hero image, and is built to be stuck to the top with `sticky-top` from bootstrap's libary. Allowing users to always have the core navigation features to be present. The navbar is deisgned to be semi translucent to create a layering effect, so when users scroll down the page will experience the page "dissapear" behind the nav-bar, which is a deisgn feature present in some modern software. I chose to do this to offer a differnt feeling but to also algin with newer software design present in modern smart devices and computers.
+
+   
 
 
 ## Objectives

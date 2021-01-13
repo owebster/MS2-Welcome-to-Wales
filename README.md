@@ -80,7 +80,7 @@ The site is built to be modern and mobile first. It's features are also supporte
 ## Wireframe:
 For my wireframes, I used Balsamiq Wireframes to mockup and create the site in different device sizes. Shown below are the different wireframes for Mobile, Tablet and Desktop. I started with the mobile site and worked from there to scale up the design. You can click on the image for a larger size.
 
-<img src="" alt="Wireframes of all small, medium and large screen sizes" width="576" height="360" />
+<img src="" alt="Wireframes of small, medium and large screen sizes" width="576" height="360" />
 
 ## Accessibility
 The site was built with accessibility needs in mind. 
@@ -89,6 +89,9 @@ The site was built with accessibility needs in mind.
    * Tested with Lighthouse to improve and fix accessibility concerns
 
 ## Scope
+I built this project to the schedule that was generated on the Code Institute schedule generator which is ahead of the hard deadline for this project (soft-deadline: 19th January 2021, hard-deadline: 2nd Febuary 2021). This meant that it has been my priority to build this website to in line with my soft deadline, to ensure that I am ahead of schedule and maintain a good pace. 
+I am happy to report that I feel as though I have built a website that meets the criteria that was provided to me as well as utilising the knowledge I have learnt so far all with providing the timeframe even though I am studying part time.
+
 
 
 ### Start

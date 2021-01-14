@@ -99,18 +99,31 @@ The approach I took was by splitting the project into different sections (Start,
    * Finally my ongoing section is based on what I want to add in the future with any future technologies I learn
 
 ### Start
-
+   * Research and planning.
+      * First thing I did for planning was to look at other travel sites and blogs to get an idea of what there is out there and what reviews customers have had for those sites.
+      * Then I layed out a basic layout of what I wanted the site in my wireframes.
+      * From there I started with choosing the colour scheme for the site and what accent colours to use.
+   * UI and UX planning
+      * Beginning with the basic HTML layout, I laid out: 
+         * The skeleton of the heading / navbar area.
+         * The 4 separate articles and sections within the body (Welcome section, weather, activities section and maps section).
+         * The footer of the site.
+      * As usual the story is an important aspect for me when deisgning and building a site, so I thought about how the user would be greated when they first open the website and how the flow of the site would work and how things tie into eachother.
 
 ### Middle
-
+   * Styling
+      * Once I had the core skeleton/layout of the site, I then moved to styling the elements.
+         * As mentioned above I have chosen to use the colours of the Welsh flag for accent colours.
+         * The site has a simple off white background that allows the content above to be highlighted easier.
+         * For parts of the site where acceptable, such as the hero seciton. I used a full page (with the use of `100vh`) image to capture the user's attention and also give them the best viewing experience of the images used to show off Wales.
+   
+   * Content
+      * I started off with place holders when designing the skeleton of the site. When basic styling was applied and I could see the near finished results of the site, I then replaced the placeholders with actual content for each section.
    
 ### Ongoing
 
 
 ## User Stories
-### Current Fan
-
-
 ### New user
 
 

@@ -113,9 +113,11 @@ The approach I took was by splitting the project into different sections (Start,
 ### Middle
 
    * Content
-         * I started off with place holders when designing the skeleton of the site. When basic styling was applied and I could see the near finished results of the site, I then replaced the placeholders with actual content for each section.
-            * In the welcome paragrah section there is a short description of what to expect on this site as well as what to expect in Wales.
-            * Then comes the weather section which shows the weather for the capital of Wales (Cardiff)
+      * I started off with place holders when designing the skeleton of the site. When basic styling was applied and I could see the near finished results of the site, I then replaced the placeholders with actual content for each section.
+         * In the welcome paragrah section there is a short description of what to expect on this site as well as what to expect in Wales.
+         * Then comes the weather section which shows the weather for the capital of Wales (Cardiff)
+         * From there we have the activities cards which shows 6 sections consisting of a bit about North and South Wales and activies of differnt types for customers to explore
+         * After that is the maps section which on page load shows Wales. Buttons are also present for people to click to add markers for locations of differnt activies.
 
    * Styling
       * Once I had the core skeleton/layout of the site, I then moved to styling the elements.

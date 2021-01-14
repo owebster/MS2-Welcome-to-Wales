@@ -34,7 +34,16 @@ $(document).ready(function(){
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
       }
 
-      $('#myBtn').click(function(){
+      $('#myBtn').on('click', function(){
+        if(this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+              scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
         topFunction();
       });
 

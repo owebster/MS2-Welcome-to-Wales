@@ -119,6 +119,7 @@ The approach I took was by splitting the project into different sections (Start,
    
    * Content
       * I started off with place holders when designing the skeleton of the site. When basic styling was applied and I could see the near finished results of the site, I then replaced the placeholders with actual content for each section.
+         * In the welcome paragrah section there is a short description of what to expect on this site as well as what to expect in Wales
    
 ### Ongoing
 

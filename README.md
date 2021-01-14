@@ -111,15 +111,17 @@ The approach I took was by splitting the project into different sections (Start,
       * As usual the story is an important aspect for me when deisgning and building a site, so I thought about how the user would be greated when they first open the website and how the flow of the site would work and how things tie into eachother.
 
 ### Middle
+
+   * Content
+         * I started off with place holders when designing the skeleton of the site. When basic styling was applied and I could see the near finished results of the site, I then replaced the placeholders with actual content for each section.
+            * In the welcome paragrah section there is a short description of what to expect on this site as well as what to expect in Wales.
+            * Then comes the weather section which shows the weather for the capital of Wales (Cardiff)
+            
    * Styling
       * Once I had the core skeleton/layout of the site, I then moved to styling the elements.
          * As mentioned above I have chosen to use the colours of the Welsh flag for accent colours.
          * The site has a simple off white background that allows the content above to be highlighted easier.
          * For parts of the site where acceptable, such as the hero seciton. I used a full page (with the use of `100vh`) image to capture the user's attention and also give them the best viewing experience of the images used to show off Wales.
-   
-   * Content
-      * I started off with place holders when designing the skeleton of the site. When basic styling was applied and I could see the near finished results of the site, I then replaced the placeholders with actual content for each section.
-         * In the welcome paragrah section there is a short description of what to expect on this site as well as what to expect in Wales
    
 ### Ongoing
 

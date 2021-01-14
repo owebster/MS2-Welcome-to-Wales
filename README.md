@@ -173,7 +173,15 @@ I used to push to github and change/create branches when I wanted to test out ne
    * [ColorTools](https://www.colortools.net/color_complementary.html) for picking complenmentary and contrasting colours
    * My mentor Spencer for helping me along the way on my first project.
    * Everyone who had a look and commented on peer to peer code review on slack
-   * [Stackoverflow](https://www.w3schools.com/howto/howto_css_center-vertical.asp) for vertically and horizontally centring a div
+   * [Stackoverflow](https://www.w3schools.com/howto/howto_css_center-vertical.asp) for vertically and horizontally centring a div:
+   ```
+   margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   ```
    * [W3School](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp) for safari smooth scrolling: 
       ``` 
       $(document).ready(function(){

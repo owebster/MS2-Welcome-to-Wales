@@ -92,36 +92,25 @@ function zooMarkers(){
 //on clikc functions for each marker section
 $('.maps-castle-btn').click(function(){
    castleMarker();
+   /*if(marker != undefined){
+        slateGroup.clearLayers();
+    } else {
+        castleMarker();
+    }*/
 });
 
 $('.maps-mountain-btn').click(function(){
-    if(marker != undefined){
-        mountainGroup.clearLayers();
-    } else {
-        mountainsMarker();
-    }
+    mountainsMarker();
 });
 
 $('.maps-slate-btn').click(function(){
-    if(marker != undefined){
-        slateGroup.clearLayers();
-    } else {
-        slateMineMarkers();
-    }
+    slateMineMarkers();
 });
 
 $('.maps-activities-btn').click(function(){
-    if(marker != undefined){
-        activitiesGroup.clearLayers();
-    } else {
-        activitiesMarkers();
-    }
+    activitiesMarkers();
 });
 
 $('.maps-zoos-btn').click(function(){
-    if(marker != undefined){
-        zooGroup.clearLayers();
-    } else {
-        zooMarkers();
-    }
+    zooMarkers();
 });

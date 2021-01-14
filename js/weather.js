@@ -13,8 +13,8 @@ window.addEventListener('load', ()=> {
         .then(data => {
             console.log(data);
             const {main, name, weather} = data;
-            $('.weather-city').html(`<h2>${name}</h2>`)
-            $('.temperatureDegree').html(`<h3>Currently it's: ${Math.round(main.temp)}˚C and ${weather[0].description}</h3>`)
-            $('.feelsLike').html(`<h3>Feels Like: ${Math.round(main.feels_like)}˚C</h3>`)
+            $('.weather-city').html(`<h2>${name}</h2>`).css("color", "#D50130");
+            $('.temperatureDegree').html(`<h3>Currently it's: ${Math.round(main.temp)}˚C with a low of ${Math.round(main.temp_min)}˚C </h3>`);
+            $('.feelsLike').html(`<h3>Feels Like: ${Math.round(main.feels_like)}˚C and ${weather[0].description}</h3>`);
         });
 });

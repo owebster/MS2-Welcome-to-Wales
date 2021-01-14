@@ -16,7 +16,7 @@ window.addEventListener('load', ()=> {
             return response.json();
         })
         .then(data => {
-            //console.log(data);
+            console.log(data);
             const {temperature, summary, icon} = data.currently;
             temperatureDegree.textContent = Math.floor((temperature - 32) * (5 / 9));
             currentDescription.textContent = summary;

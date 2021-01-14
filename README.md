@@ -90,9 +90,13 @@ The site was built with accessibility needs in mind.
 
 ## Scope
 I built this project to the schedule that was generated on the Code Institute schedule generator which is ahead of the hard deadline for this project (soft-deadline: 19th January 2021, hard-deadline: 2nd Febuary 2021). This meant that it has been my priority to build this website to in line with my soft deadline, to ensure that I am ahead of schedule and maintain a good pace. 
+Initially I had a plan to build another website for this project, based on a scheduling site. However I quickly realised that it would not meet the requirements of this assignment and therefore went to my second idea which was this travel site which I was able to incorporate more features that showed JS usage and also usage of APIs.
 I am happy to report that I feel as though I have built a website that meets the criteria that was provided to me as well as utilising the knowledge I have learnt so far all with providing the timeframe even though I am studying part time.
 
-
+The approach I took was by splitting the project into different sections (Start, Middle and Ongoing). 
+   * By doing this I was able to plan out what I wanted to start off with on the website focusing on the basic structure and the different sections I wanted to include
+   * Then in the middle I focused on the styling of the sections and on-going testing of the site to make sure what I was building functions normally in different settings
+   * Finally my ongoing section is based on what I want to add in the future with any future technologies I learn
 
 ### Start
 

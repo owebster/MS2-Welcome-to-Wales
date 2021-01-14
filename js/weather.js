@@ -8,7 +8,7 @@ window.addEventListener('load', ()=> {
     let temperatureDegree = document.querySelector('.temperatureDegree')
     let currentDescription = document.querySelector('.currentDescription')
     //const proxy = "https://cors-anywhere.herokuapp.com/";
-    //const api = `https://api.darksky.net/forecast/5d55e2e606650c0ef689fa5fd436c424/${lat},${long}`;
+    //const api = `${proxy}https://api.darksky.net/forecast/5d55e2e606650c0ef689fa5fd436c424/${lat},${long}`;
     const api = `https://api.darksky.net/forecast/5d55e2e606650c0ef689fa5fd436c424/51.4816,-3.1791`;
 
     fetch(api)

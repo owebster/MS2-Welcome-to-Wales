@@ -116,7 +116,7 @@ The approach I took was by splitting the project into different sections (Start,
          * I started off with place holders when designing the skeleton of the site. When basic styling was applied and I could see the near finished results of the site, I then replaced the placeholders with actual content for each section.
             * In the welcome paragrah section there is a short description of what to expect on this site as well as what to expect in Wales.
             * Then comes the weather section which shows the weather for the capital of Wales (Cardiff)
-            
+
    * Styling
       * Once I had the core skeleton/layout of the site, I then moved to styling the elements.
          * As mentioned above I have chosen to use the colours of the Welsh flag for accent colours.
@@ -174,11 +174,38 @@ I used to push to github and change/create branches when I wanted to test out ne
    * My mentor Spencer for helping me along the way on my first project.
    * Everyone who had a look and commented on peer to peer code review on slack
    * [Stackoverflow](https://www.w3schools.com/howto/howto_css_center-vertical.asp) for vertically and horizontally centring a div
-   * [Stackoverflow](https://stackoverflow.com/questions/12427965/jquery-smooth-scroll-issue-on-safari-mac-os) for safari smooth scrolling
+   * [W3School](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp) for safari smooth scrolling: 
+      ``` 
+      $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+         // Make sure this.hash has a value before overriding default behavior
+         if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+            scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+            });
+         } // End if
+      });
+      });
+      ```
    * [StackOVerflow](https://stackoverflow.com/questions/41256026/clear-marker-layers-leaflet) for leaflet remove layers + markers
    * [BBC-Good-Foods](https://www.bbcgoodfood.com/howto/guide/top-10-foods-try-wales) for food history and food types
    * [Favicon](https://favicon.io/emoji-favicons/flag-wales/) for favicon generator
-   * [Darksky-Con](https://darkskyapp.github.io/skycons/) for animated dark sky icons to go along with dark sky api
+   * [Openweather](https://openweathermap.org/current#current_JSON) for weather API
+   * [Leaflet](https://leafletjs.com) for maps API
    * [W3School](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) for back to top button
    * Dev Ed on youtube for tutorial on Javascript
 

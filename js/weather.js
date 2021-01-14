@@ -7,9 +7,6 @@ window.addEventListener('load', ()=> {
     let temperatureDegree = document.querySelector('.temperatureDegree')
     let currentDescription = document.querySelector('.currentDescription')
     let weatherIcon = document.querySelector('.weatherIcon')
-    //const proxy = "https://cors-anywhere.herokuapp.com/";
-    //const api = `${proxy}https://api.darksky.net/forecast/5d55e2e606650c0ef689fa5fd436c424/51.4816, -3.1791`;
-    //const api = `https://api.darksky.net/forecast/5d55e2e606650c0ef689fa5fd436c424/51.4816,-3.1791`;
     const api = 'http://api.weatherstack.com/current?access_key=be6ea8e1d22896aa92288375aa53cb4f&query=Cardiff';
 
     fetch(api)
@@ -21,6 +18,6 @@ window.addEventListener('load', ()=> {
             const {temperature, weather_descriptions, weather_icons} = data.current;
             temperatureDegree.textContent = temperature;
             currentDescription.textContent = weather_descriptions;
-            weatherIcon.src = weather_icons;
+            //weatherIcon.src = weather_icons;
         });
 });

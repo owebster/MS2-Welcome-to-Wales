@@ -1,10 +1,8 @@
-//openweather
-//https://api.openweathermap.org/data/2.5/weather?q=Cardiff&appid=983533143e870dc758b970f7b3eb380b
-/*let lat = 51.4816; 
-let long = -3.1791; cardiff lat long*/
+//openweather api: https://api.openweathermap.org/data/2.5/weather?q=Cardiff&appid=983533143e870dc758b970f7b3eb380b
 
 let southWales = 'Cardiff';
 let northWales = 'Holyhead';
+
 window.addEventListener('load', function() {
     const api = `https://api.openweathermap.org/data/2.5/weather?q=${southWales}&units=metric&appid=983533143e870dc758b970f7b3eb380b`;
 

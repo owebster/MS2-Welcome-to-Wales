@@ -142,15 +142,17 @@ The approach I took was by splitting the project into different sections (Start,
 ## Technologies used:
   
 ## Testing:
+
 ### HTML
 
 
 ### CSS
 
+<img src="" alt="screenshot of CSS w3 Validation completion checks, passed" width="576" height="360" />
+
 ### JS
 
-
-<img src="" alt="screenshot of CSS w3 Validation completion checks, passed" width="576" height="360" />
+### Known issues
 
 ### Chrome developer tools
 When building the site, during each section I used Chrome's inspect and developer tools (such as lighthouse) to validate my work and to ensure the site worked accross multiple screen sizes.
@@ -166,8 +168,6 @@ I used the built in terminal to get git status, git add, git commits and git pus
 Within Github's desktop app:
 
 I used to push to github and change/create branches when I wanted to test out new features / layouts. An example of this was when I was creating the hero carousel and wanted to test how different screen sizes would affect the provided images
-
-### Questions asked to users
 
 
 ## Credits:

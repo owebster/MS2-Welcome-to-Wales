@@ -23,25 +23,6 @@ var slateGroup = L.layerGroup().addTo(mymap);
 var activitiesGroup = L.layerGroup().addTo(mymap);
 var zooGroup = L.layerGroup().addTo(mymap);
 
-//building an array system to get more contorl on adding and removing markers
-/* var castles = [{'lat':'51.7696', 'long':'-4.4620'},{'lat':'53.1391', 'long':'-4.2769'},{'lat':'51.7702', 'long':'-2.8499'},{'lat':'51.8766', 'long':'-4.0181'},{'lat':'51.5931', 'long':'-2.7423'},{'lat':'53.2801', 'long':'-3.8256'},{'lat':'52.6499', 'long':'-3.1613'},{'lat':'52.9354', 'long':'-3.0894'},{'lat':'52.0572', 'long':'-4.6342'},{'lat':'51.5761', 'long':'-3.2202'}];
-var castlePopups = ['Laugharne Castle'];
-function castleWrap() {
-    for(i=0;i<castles.length;i++){
-        var castleMarker = new L.marker([castles[i].lat, castles[i].long]);
-        var castlePopupMessage = new L.bindPopup(castlePopups[i]);
-        marker.push(castleMarker);
-        marker.bindPopup(castlePopupMessage);
-        mymap.addLayer(marker[i]);
-    }
-}
-
-function markerDelAgain() {
-    for(i=0;i<castles.length;i++) {
-        mymap.removeLayer(marker[i]);
-    }  
-} */
-
 function castleMarker(){ //when user clicks on castle button, add these markers to map to show where the castles are
     marker = new L.marker([51.7696, -4.4620]).addTo(castleGroup).bindPopup('<p>Laugharne Castle</p>'); //Laugharne Castle
     marker = new L.marker([53.1391, -4.2769]).addTo(castleGroup).bindPopup('<p>Caernarfon Castle</p>'); //Caernarfon Castle

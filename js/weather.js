@@ -1,11 +1,9 @@
 //openweather api: https://api.openweathermap.org/data/2.5/weather?q=Cardiff&appid=983533143e870dc758b970f7b3eb380b
-
 let southWales = 'Cardiff';
 let northWales = 'Holyhead';
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function() { //south wales api call
     const api = `https://api.openweathermap.org/data/2.5/weather?q=${southWales}&units=metric&appid=983533143e870dc758b970f7b3eb380b`;
-
     fetch(api)
         .then(function(response) {
             return response.json();
@@ -19,9 +17,8 @@ window.addEventListener('load', function() {
         });
 });
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function() { //north wales api call
     const api = `https://api.openweathermap.org/data/2.5/weather?q=${northWales}&units=metric&appid=983533143e870dc758b970f7b3eb380b`;
-
     fetch(api)
         .then(function(response){
             return response.json();

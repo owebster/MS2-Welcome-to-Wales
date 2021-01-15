@@ -130,6 +130,10 @@ html {
     background-color: rgba(243, 243, 243, 0.877);
 }
 
+.nav-item > a{
+    color: #000;
+}
+
 .navbar-nav ul > li{
     display: inline !important;
 }
@@ -170,7 +174,7 @@ html {
         align-items: center;
         justify-content: center;
     }
-    
+
     .weatherAPI {
         text-align: center;
         margin-bottom: 5%;

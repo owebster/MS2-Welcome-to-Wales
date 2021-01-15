@@ -71,11 +71,17 @@ The site is built to be modern and mobile first. It's features are also supporte
 
 ## Objectives
 ### For the Site Owner:
-* 
+* To bring more people to the website
+* To raise awareness on activites in Wales
+* To bring more people to Wales
+* To increase the cultural awareness of the country
    
 
 ### For the User:
-* 
+* To learn something new about Wales
+* To find somehting new to do in Wales
+* Assist in holiday planning 
+* To assist families in finding activies to do together
 
 ## Wireframe:
 For my wireframes, I used Balsamiq Wireframes to mockup and create the site in different device sizes. Shown below are the different wireframes for Mobile, Tablet and Desktop. I started with the mobile site and worked from there to scale up the design. You can click on the image for a larger size.
@@ -129,12 +135,19 @@ The approach I took was by splitting the project into different sections (Start,
 
 
 ## User Stories
-### New user
-
+* As a user, I expect to be able to navigate the site easily an intutively
+* As a user I expect to be able 
 
 ## Features
 ### Current:
-   
+* Hero image with down button welcoming users to the site
+* Live Weather API from openweather calling two differnt city's weather details on page load
+* Activities card section with indivitual expanding cards to show more information
+* Maps section with corrisponding buttons selection to showcase where differnt activites are within Wales
+* Footer with quick action links to take users back to certain sections
+* Navbar with `sticky-top` functionality to be always present for the user
+   * Navbar consistis of quick links for easy navigation for the user
+* Back to top button that shows after scroll is initiated on page, allowing the user to be taken back up to the top of the page quickly
 
 ### Future:
   
@@ -153,6 +166,28 @@ The approach I took was by splitting the project into different sections (Start,
 ### JS
 
 ### Known issues
+* Smooth Scrolling for Safari not working for back to top button
+   * Fixed on 14th January 2020 with additional JS code within back to top button function
+
+* Weather API failing to call
+   * Fixed on the 14th January 2021 by changing API provider to get around HTTPS request issue
+
+* Accessibility contrast issue on Nav bar causing google lighthouse to decrease accessibility score
+   * Fixed on the 15th January 2021 by adjusting bootstrap navbar styling
+
+* Maps Marker duplicating ontop of eachother when multiple button click occurs
+
+* Weather section overlapping on small to medium devices
+   * Fixed on 15th January 2021 by adjusting min-screen size options in style.css file
+
+* `$("#family-txt-btn").click(function(){$(".family-txt-section").slideToggle();});` Was not functioning after adjusting UL tags in cards section
+   * Fixed on the 13th January 2021 by adjusting the placement of the `#family-txt-btn` button.
+
+* Back to weather section button in footer was not functioning
+   * Fixed on the 10th January 2021 by calling the right ID tag in weather section as it was pointing to the wrong ID previously
+
+* Back to top button styling was incorrect on mobile devices
+   * Fixed on the 23rd December 2020 by adjusting css file with additional padding on button
 
 ### Chrome developer tools
 When building the site, during each section I used Chrome's inspect and developer tools (such as lighthouse) to validate my work and to ensure the site worked accross multiple screen sizes.

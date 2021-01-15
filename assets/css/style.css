@@ -140,7 +140,6 @@ html {
 
 /* weather */
 .weather-section {
-    padding-top: 8%;
     height: 90vh;
     background: url("../images/9346BDE5-92A4-40EC-A3A3-D240E67B24AE_1_105_c.jpg");
     -webkit-background-size: cover;
@@ -158,14 +157,20 @@ html {
 
 .weatherAPI {
     text-align: center;
-    margin-bottom: 0%;
 
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.808);
+    padding: 5%;
+    border-radius: 15px;
+    width: 80vw;
+}
+
+.northWalesWeatherAPI {
+    display: hide;
 }
 
 @media screen and (min-width: 960px){ /* to adjust text layout on api on screens larger than mobile devices */
@@ -175,16 +180,18 @@ html {
         justify-content: center;
     }
 
-    .weatherAPI {
+    .weatherAPI, .northWalesWeatherAPI {
         text-align: center;
-        margin-bottom: 5%;
-        
-        margin: 0;
         position: relative;
         top: 0%;
         left: 0%;
         -ms-transform: translate(0%, 0%);
         transform: translate(0%, 0%);
+        background-color: rgba(255, 255, 255, 0.808);
+        padding: 5%;
+        border-radius: 15px;
+        width: 60vw;
+        margin: 4%;
     }
 }
 

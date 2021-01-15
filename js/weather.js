@@ -30,6 +30,8 @@ window.addEventListener('load', function() {
         })
         .then(function(data){
             const {main, name, weather} = data;
-            
+            $('.northWalesCity').html(`<h2>${name}</h2>`).css("color", "#D50130");
+            $('.northWalesTemp').html(`<h3>Currently it's: ${Math.round(main.temp)}˚C with a low of ${Math.round(main.temp_min)}˚C </h3>`);
+            $('.northWalesFeelsLike').html(`<h3>Feels Like: ${Math.round(main.feels_like)}˚C with ${weather[0].description}</h3>`);
         })
 })

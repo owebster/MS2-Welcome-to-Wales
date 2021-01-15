@@ -150,11 +150,11 @@ The approach I took was by splitting the project into different sections (Start,
 * Back to top button that shows after scroll is initiated on page, allowing the user to be taken back up to the top of the page quickly
 
 ### Future:
-  
+* More interactive maps area allowing user to plan transport needs to differnt activites
+* Travel section to take users to travel site allowing them to book accomidation
 
 ## Technologies used:
-  
-## Testing:
+### Testing:
 
 ### HTML
 

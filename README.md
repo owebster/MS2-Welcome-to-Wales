@@ -64,6 +64,9 @@ The site is built to be modern and mobile first. It's features are also supporte
 
    * The navbar is then visable once the user scrolls down from the hero image, and is built to be stuck to the top with `sticky-top` from bootstrap's libary. Allowing users to always have the core navigation features to be present. The navbar is deisgned to be semi translucent to create a layering effect, so when users scroll down the page will experience the page "dissapear" behind the nav-bar, which is a deisgn feature present in some modern software. I chose to do this to offer a differnt feeling but to also algin with newer software design present in modern smart devices and computers.
 
+   * The weather section displays two cities in wales in a side by side view. This allows users to get a quick idea on what the weather in Wales is like. The weather is gathered with the Openweather API that's been styled to show the information quickly yet making sure it's not just a bunch of numbers on screen like other websites show.
+      * Another factor in the interface (which counts as a feature) is the "feels like" temperature as it gives more context on what people should wear whikst visiting differnt parts of Wales.
+
    * Smooth scrolling is included on the entire page even for safari which has been included with some Javascript.
 
    * `col` is used throughout the page to make sure every section scales according to screensize and orientation.
@@ -117,13 +120,15 @@ The approach I took was by splitting the project into different sections (Start,
       * As usual the story is an important aspect for me when deisgning and building a site, so I thought about how the user would be greated when they first open the website and how the flow of the site would work and how things tie into eachother.
 
 ### Middle
-
    * Content
       * I started off with place holders when designing the skeleton of the site. When basic styling was applied and I could see the near finished results of the site, I then replaced the placeholders with actual content for each section.
          * In the welcome paragrah section there is a short description of what to expect on this site as well as what to expect in Wales.
          * Then comes the weather section which shows the weather for the capital of Wales (Cardiff)
          * From there we have the activities cards which shows 6 sections consisting of a bit about North and South Wales and activies of differnt types for customers to explore
+            * On large screen devices, the tiles are displayed side by side
+            * On Small to medium screen devices, the tiles are displayed in a stacking order to make sure there's not too much informaiton in a small screen
          * After that is the maps section which on page load shows Wales. Buttons are also present for people to click to add markers for locations of differnt activies.
+      * Footer was added which includes basic but essential quick links back to differnt parts of the site
 
    * Styling
       * Once I had the core skeleton/layout of the site, I then moved to styling the elements.
@@ -132,6 +137,7 @@ The approach I took was by splitting the project into different sections (Start,
          * For parts of the site where acceptable, such as the hero seciton. I used a full page (with the use of `100vh`) image to capture the user's attention and also give them the best viewing experience of the images used to show off Wales.
    
 ### Ongoing
+   * 
 
 
 ## User Stories

@@ -19,11 +19,6 @@ body {
     color: #fff;
 }
 
-.search-btn {
-    background-color: #D50130;
-    border: #D50130;
-}
-
 footer {
     background-color: #D50130;
 }
@@ -277,10 +272,6 @@ ul.navbar-nav a:hover{
 .down-btn:hover {
     text-emphasis: none;
     color: #D50130;
-}
-
-.search-btn:hover {
-    background-color: #7e001b;
 }
 
 .footer-list li > a:hover {

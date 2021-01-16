@@ -149,13 +149,16 @@ The approach I took was by splitting the project into different sections (Start,
 ## Features
 ### Current:
 * Hero image with down button welcoming users to the site
-* Live Weather API from openweather calling two differnt city's weather details on page load
+* Live Weather API from openweather calling two differnt city's weather details on page load. 
+   * 
 * Activities card section with indivitual expanding cards to show more information
 * Maps section with corrisponding buttons selection to showcase where differnt activites are within Wales
 * Footer with quick action links to take users back to certain sections
 * Navbar with `sticky-top` functionality to be always present for the user
    * Navbar consistis of quick links for easy navigation for the user
 * Back to top button that shows after scroll is initiated on page, allowing the user to be taken back up to the top of the page quickly
+* "read more" buttons on activites card with jquery expanding function to review more inoformation. This is done by a default of `display: hide;` then with jquery with a toggle function on button click to show the hidden information
+
 
 ### Future:
 * More interactive maps area allowing user to plan transport needs to differnt activites

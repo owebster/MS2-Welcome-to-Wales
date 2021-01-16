@@ -136,7 +136,9 @@ The approach I took was by splitting the project into different sections (Start,
 
 ## User Stories
 * As a user, I expect to be able to navigate the site easily an intutively
-* As a user I expect to be able 
+* As a user I expect to be able learn something new on the site about a new country that I've not visited before
+* As a user I'd expect to come back to the site for inspirations on what to do in Wales (being able to see differnt activites)
+* 
 
 ## Features
 ### Current:
@@ -154,6 +156,18 @@ The approach I took was by splitting the project into different sections (Start,
 * Travel section to take users to travel site allowing them to book accomidation
 
 ## Technologies used:
+* HTML5
+* CSS
+* Javascript
+   * [Jquery](https://jquery.com)
+* [Bootstrap](https://getbootstrap.com/) - for structure and extra features of the site
+   * `fas fa-angle-down` for down button on hero-image section
+   * `fab fa-fort-awesome-alt` for castle icon on maps button
+   * `fas fa-mountain` for mountain icon on maps button
+   * `fas fa-tram` for slate mine icon on maps button
+   * `fas fa-hiking` for activities icon on maps button
+   * `fab fa-suse` for zoo icon on maps button
+* [Fontawesome](https://fontawesome.com/)
 ### Testing:
 
 ### HTML
@@ -191,18 +205,20 @@ The approach I took was by splitting the project into different sections (Start,
 
 ### Chrome developer tools
 When building the site, during each section I used Chrome's inspect and developer tools (such as lighthouse) to validate my work and to ensure the site worked accross multiple screen sizes.
-This was also used to debug any structual and/or styling issues ont he fly
+This was also used to debug any structual and styling issues ont he fly
 
 ### Buttons and Links
 All buttons, links and audio that has been embedded has been accounted for and directs to the right source
 
 ## Deployment:
-During this project, I made sure that I spent some of my time focusing on how to properly manage and deploy my project. I used my own IDE, Github's desktop app and the IDE's (VS Code) terminal to create branches, test and deploy my code. I primarily did my work in my testing branch as I knew that I would commit to my main branch closer to the time I made my site public. Within the IDE:
+During this project, I made sure that I spent some of my time focusing on how to properly manage and deploy my project. I used my own IDE (VSCode), Github's desktop app and the IDE's (VS Code) terminal to create branches, test and deploy my code. I primarily did my work in my testing branch as I knew that I would commit to my main branch closer to the time I made my site public. Within the IDE:
 
 I used the built in terminal to get git status, git add, git commits and git push
 Within Github's desktop app:
 
 I used to push to github and change/create branches when I wanted to test out new features / layouts. An example of this was when I was creating the hero carousel and wanted to test how different screen sizes would affect the provided images
+
+I used Github pages to host the website I built.
 
 
 ## Credits:

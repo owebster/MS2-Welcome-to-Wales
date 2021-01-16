@@ -154,6 +154,7 @@ The approach I took was by splitting the project into different sections (Start,
 ### Future:
 * More interactive maps area allowing user to plan transport needs to differnt activites
 * Travel section to take users to travel site allowing them to book accomidation
+* Animated video for landing page to be more eye catching (scroll movement plays video)
 
 ## Technologies used:
 * HTML5
@@ -168,13 +169,13 @@ The approach I took was by splitting the project into different sections (Start,
    * `fas fa-hiking` for activities icon on maps button
    * `fab fa-suse` for zoo icon on maps button
 * [Fontawesome](https://fontawesome.com/)
-### Testing:
 
+## Testing:
 ### HTML
-
+All HTML code has gone through https://validator.w3.org/ and no errors occur
 
 ### CSS
-
+All CSS was tested using direct input with https://jigsaw.w3.org and no errors were returned
 <img src="" alt="screenshot of CSS w3 Validation completion checks, passed" width="576" height="360" />
 
 ### JS

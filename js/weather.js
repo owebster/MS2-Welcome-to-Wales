@@ -11,9 +11,9 @@ window.addEventListener('load', function() { //south wales api call
         .then(function(data){
             console.log(data);
             const {main, name, weather} = data;
-            $('.weather-city').html(`<h3>${name}</h3>`).css("color", "#D50130");
-            $('.temperatureDegree').html(`<h4>Currently it's: ${Math.round(main.temp)}˚C with a low of ${Math.round(main.temp_min)}˚C </h4>`);
-            $('.feelsLike').html(`<h4>Feels Like: ${Math.round(main.feels_like)}˚C with ${weather[0].description}</h4>`);
+            $('#weather-city').html(`<h3>${name}</h3>`).css("color", "#D50130");
+            $('#temperatureDegree').html(`<h4>Currently it's: ${Math.round(main.temp)}˚C with a low of ${Math.round(main.temp_min)}˚C </h4>`);
+            $('#feelsLike').html(`<h4>Feels Like: ${Math.round(main.feels_like)}˚C with ${weather[0].description}</h4>`);
         });
 });
 
@@ -25,8 +25,8 @@ window.addEventListener('load', function() { //north wales api call
         })
         .then(function(data){
             const {main, name, weather} = data;
-            $('.northWalesCity').html(`<h3>${name}</h3>`).css("color", "#D50130");
-            $('.northWalesTemp').html(`<h4>Currently it's: ${Math.round(main.temp)}˚C with a low of ${Math.round(main.temp_min)}˚C </h4>`);
-            $('.northWalesFeelsLike').html(`<h4>Feels Like: ${Math.round(main.feels_like)}˚C with ${weather[0].description}</h4>`);
+            $('#northWalesCity').html(`<h3>${name}</h3>`).css("color", "#D50130");
+            $('#northWalesTemp').html(`<h4>Currently it's: ${Math.round(main.temp)}˚C with a low of ${Math.round(main.temp_min)}˚C </h4>`);
+            $('#northWalesFeelsLike').html(`<h4>Feels Like: ${Math.round(main.feels_like)}˚C with ${weather[0].description}</h4>`);
         })
 })

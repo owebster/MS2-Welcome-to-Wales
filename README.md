@@ -176,7 +176,7 @@ All HTML code has gone through https://validator.w3.org/ and no errors occur
 
 ### CSS
 All CSS was tested using direct input with https://jigsaw.w3.org and no errors were returned
-<img src="" alt="screenshot of CSS w3 Validation completion checks, passed" width="576" height="360" />
+<img src="assets/images/css_validator_pass.png" alt="screenshot of CSS w3 Validation completion checks, passed" width="576" height="360" />
 
 ### JS
 

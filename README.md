@@ -137,20 +137,22 @@ The approach I took was by splitting the project into different sections (Start,
          * For parts of the site where acceptable, such as the hero seciton. I used a full page (with the use of `100vh`) image to capture the user's attention and also give them the best viewing experience of the images used to show off Wales.
    
 ### Ongoing
-   * 
-
+   * For the future, I would like to build in a proper booking reference for the site
+      * Allowing users to search for accommodation via trip advisor within the site by typing in a city in a search field
+      * Intergrating a seachable maps function to plan trip durations
+      * a log in site to save trip ideas / plans
 
 ## User Stories
 * As a user, I expect to be able to navigate the site easily an intutively
 * As a user I expect to be able learn something new on the site about a new country that I've not visited before
 * As a user I'd expect to come back to the site for inspirations on what to do in Wales (being able to see differnt activites)
-* 
 
 ## Features
 ### Current:
 * Hero image with down button welcoming users to the site
 * Live Weather API from openweather calling two differnt city's weather details on page load. 
-   * 
+   * Weather data also includes "feels like" temperature which is a feature to let users easily identify what the temperature actually feels like
+   * Show casing two cities allows users to see the different (or similar) weather in north or south Wales
 * Activities card section with indivitual expanding cards to show more information
 * Maps section with corrisponding buttons selection to showcase where differnt activites are within Wales
 * Footer with quick action links to take users back to certain sections

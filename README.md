@@ -1,7 +1,7 @@
 # MS2-Welcome-to-Wales
  Milestone Project #2 - a travel site for visiting Wales
 
-<img src="assets/images/screen_mockup.jpg" alt="Image of screen-mockup on desktop, tablet and mobile screen sizes" width="576" height="360" />
+<img src="assets/images/screen_mockup.jpg" alt="Image of screen-mockup on desktop, tablet and mobile screen sizes" />
 
 ## An Overview
 For my second milestone project I have chosen to build a travel site for things to do in Wales. This project is built using HTML, CSS, Javascript and accompanying frameworks. Show casing mobile first design, useage of API's and a deeper dive into my current front end development knowledge with more confident use of HTML and CSS but also Javascript.

@@ -191,6 +191,22 @@ All CSS was tested using direct input with https://jigsaw.w3.org and no errors w
 
 ### JS
 
+
+### Manual Testing:
+|Test      |Pass (y/n)|
+|----------|----------|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 ### Known issues
 * Smooth Scrolling for Safari not working for back to top button
    * Fixed on 14th January 2020 with additional JS code within back to top button function

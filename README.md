@@ -24,7 +24,8 @@ View a live version of my site [here](https://owebster.github.io/MS2-Welcome-to-
    * [User Stories](#user-stories)
    * [Features](#features)
    * [Technologies Used](#technologies-used)
-   * [Testing](#testing)
+   * [Feature and Technology Testing](#feature-and-technology-testing)
+   * [Further Testing](#further-testing)
    * [Deployment](#deployment)
    * [Credits](#credits)
 
@@ -181,7 +182,43 @@ The approach I took was by splitting the project into different sections (Start,
    * `fab fa-suse` for zoo icon on maps button
 * [Fontawesome](https://fontawesome.com/)
 
-## Testing:
+## Feature and Technology Testing
+### Manual testing:
+|                        	| Test Case                                             	| Pass (y/n) 	| Addition Information                                                                                                                                                                                                                                  	|
+|------------------------	|-------------------------------------------------------	|------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Screen Size Test       	| Mobile (small)                                        	| Y          	| Tested on multiple devices with chrome developer tools as well as physical devices. Also tested in multiple orientations to ensure consistency.                                                                                                       	|
+|                        	| Tablet (medium)                                       	| Y          	| Tested on multiple devices with chrome developer tools as well as physical devices. Also tested in multiple orientations to ensure consistency.                                                                                                       	|
+|                        	| Computer (large)                                      	| Y          	| Tested on multiple devices with chrome developer tools as well as physical devices. Also tested in multiple orientations to ensure consistency.                                                                                                       	|
+|                        	|                                                       	|            	|                                                                                                                                                                                                                                                       	|
+| Navigation Buttons     	| Scroll down button on hero image                      	| Y          	|                                                                                                                                                                                                                                                       	|
+|                        	| Back to top button                                    	| Y          	| Appears correctly across device screen sizes and device types                                                                                                                                                                                         	|
+|                        	|                                                       	|            	|                                                                                                                                                                                                                                                       	|
+| Smooth Scrolling       	| Chrome                                                	| Y          	| Functional with `display: smooth`                                                                                                                                                                                                                     	|
+|                        	| Microsoft Edge                                        	| Y          	| Functional with `display: smooth`                                                                                                                                                                                                                     	|
+|                        	| Safari                                                	| Y          	| Works on safari with addition JS script                                                                                                                                                                                                               	|
+|                        	|                                                       	|            	|                                                                                                                                                                                                                                                       	|
+| Nav Bar                	| Sticky Top                                            	| Y          	|                                                                                                                                                                                                                                                       	|
+|                        	| Scales on different device size                       	| Y          	|                                                                                                                                                                                                                                                       	|
+|                        	| Page links functional                                 	| Y          	|                                                                                                                                                                                                                                                       	|
+|                        	|                                                       	|            	|                                                                                                                                                                                                                                                       	|
+| Weather API            	| Displays correct information                          	| Y          	| API provided by [OpenWeatherMap](https://openweathermap.org/api) Both API calls display called information correctly: - Current Weather - Lowest temperature - Feels like temperature - Weather condition (with scattered clouds, with no clouds etc) 	|
+|                        	| Scales across different device screen sizes           	| Y          	| Using `@media screen and (min-width: 960px){}`  to adjust text layout on api on screens larger than mobile devices                                                                                                                                    	|
+|                        	| Loads correctly on page load                          	| Y          	| Uses `window.addEventListener('load', function(){}` to call api on page load                                                                                                                                                                          	|
+|                        	|                                                       	|            	|                                                                                                                                                                                                                                                       	|
+| Activity Cards Section 	| Scales correctly across different device screen sizes 	| Y          	| Using bootstrap's `col` tags to change between different screen sizes. On small screen sizes, `col-12` is used, on medium and large screen devices, `col-6` is used to utilise larger screen real estate.                                             	|
+|                        	| Show more buttons expands to show more information    	| Y          	| This uses Jquery's `.click()` function followed by it's `.slideToggle()` function to achieve this effect.                                                                                                                                             	|
+|                        	| Images display correctly                              	| Y          	|                                                                                                                                                                                                                                                       	|
+|                        	|                                                       	|            	|                                                                                                                                                                                                                                                       	|
+| Maps API               	| Displays correctly based on set JS                    	| Y          	| Maps API is provided by [Leaflet](https://leafletjs.com)                                                                                                                                                                                              	|
+|                        	| Map markers populate based on button click            	| Y*         	| *Pass based on the fact that it displays maps marker but known bug where they duplicate based on button click.                                                                                                                                        	|
+|                        	|                                                       	|            	|                                                                                                                                                                                                                                                       	|
+| Footer                 	| Footer links are active and functional                	| Y          	| Footer links take users back to selected sections on page with anchor tags                                                                                                                                                                            	|
+|                        	|                                                       	|            	|                                                                                                                                                                                                                                                       	|
+| Accessibility          	| Images                                                	| Y          	| Images all have correct alt tags for vision impaired users                                                                                                                                                                                            	|
+|                        	| Google Lighthouse test (mobile)                       	| 92/100     	| Google lighthouse scores shown under [Further Testing](#further-testing) section                                                                                                                                                                      	|
+|                        	| Google Lighthouse test (desktop)                      	| 92/100     	| Google lighthouse scores shown under [Further Testing](#further-testing) section                                                                                                                                                                      	|
+
+## Further Testing:
 ### HTML
 All HTML code has gone through https://validator.w3.org/ and no errors occur
 
@@ -190,22 +227,6 @@ All CSS was tested using direct input with https://jigsaw.w3.org and no errors w
 <img src="assets/images/css_validator_pass.png" alt="screenshot of CSS w3 Validation completion checks, passed" width="576" height="360" />
 
 ### JS
-
-
-### Manual Testing:
-|Test      |Pass (y/n)|
-|----------|----------|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
 
 ### Known issues
 * Smooth Scrolling for Safari not working for back to top button

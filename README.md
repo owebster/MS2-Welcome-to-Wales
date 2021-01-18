@@ -4,9 +4,9 @@
 <img src="assets/images/screen_mockup.jpg" alt="Image of screen-mockup on desktop, tablet and mobile screen sizes" />
 
 ## An Overview
-For my second milestone project I have chosen to build a travel site for things to do in Wales. This project is built using HTML, CSS, Javascript and accompanying frameworks. Show casing mobile first design, useage of API's and a deeper dive into my current front end development knowledge with more confident use of HTML and CSS but also Javascript.
+For my second milestone project I have chosen to build a travel site for things to do in Wales. This project is built using HTML, CSS, Javascript and accompanying frameworks. Show casing mobile first design, usage of API's and a deeper dive into my current front end development knowledge with more confident use of HTML and CSS but also Javascript.
 I decided on building a sit for visiting Wales because I wanted an easy to view experience for anyone who's deciding on their next getaway.
-This site is simplistic to use and has a good flow between different sections which tie into eachother.
+This site is simplistic to use and has a good flow between different sections which tie into each-other.
 
 In this document I will go through what I've built and why, as well as future goals and testing that's been done to make sure this site is functional in what it offers as well as across multiple device types, from mobile to desktop.
 
@@ -33,42 +33,42 @@ View a live version of my site [here](https://owebster.github.io/MS2-Welcome-to-
 
 ## UX
 ### The Experience:
-I wanted to create a site where it's user friendly in deisgn and allows the user to flow explore the site easily and in a way that makes sence in terms of it's flow but to also have the most relelvant information that's needed for a travel site. 
-Such as the local weather, things to do in the area and also a bit of history to provide a site that's to everyone's tastes. Or map markers holding information about it's marked place to provide more detail. I've made sure each button is working accordinly as well as having a site that's accessible to all and meets the speed requirements a user expects on a modern site (more on speed and accessibility in the testing section).
+I wanted to create a site where it’s user friendly in design and allows the user to flow explore the site easily and in a way that makes sense in terms of it's flow but to also have the most relevant information that's needed for a travel site. 
+Such as the local weather, things to do in the area and also a bit of history to provide a site that's to everyone's tastes. Or map markers holding information about it’s marked place to provide more detail. I've made sure each button is working accordingly as well as having a site that's accessible to all and meets the speed requirements a user expects on a modern site (more on speed and accessibility in the testing section).
 
 ### Journey of the Site:
 The site starts off with a full page image of the coast lines of North Wales with a title and short description on the what the site will offer. This gives the user a clear understanding on what the site offers. Meaning that without any further interaction they will know that it is a website to showcase some quick details on Wales.
 
    * From hero image on at the top, the user can either scroll with their mouse or finger to the enxt section of the site or they can click the down arrow which guides the user down as well.
 
-   * The user is then greated with a short paragraph about Wales, giving a quick description about Wales and it's location (more on why this matters in "site owner goals" ).
+   * The user is then greeted with a short paragraph about Wales, giving a quick description about Wales and it's location (more on why this matters in "site owner goals" ).
    
-   * Following the welcome paragraph, the user is shown the current weather in Cardiff - the capital of Wales. This is done with the Dark Sky API with some JS to inject the information onto the document. Showing an animated image of the weather for a quick and clear idea, as well as the actual temperture and a written description of the weather. E.G. Overcast.
+   * Following the welcome paragraph, the user is shown the current weather in Cardiff - the capital of Wales. This is done with the Dark Sky API with some JS to inject the information onto the document. Showing an animated image of the weather for a quick and clear idea, as well as the actual temperature and a written description of the weather. E.G. Overcast.
 
-   * After the weather section, the user is greated with the information cards section where it starts off with 2 cards about Wales. This is sorted with Bootstrap's `col` class where the cards in mobile view are sorted by `col-12` so on smaller screen devices they are listed one on top of eachother to make sure information is not cramped next to each other and is easier to view. On  medium / large screen devices, this changes to `col-sm-6` to utlise screen that have a larger area.
+   * After the weather section, the user is greeted with the information cards section where it starts off with 2 cards about Wales. This is sorted with Bootstrap's `col` class where the cards in mobile view are sorted by `col-12` so on smaller screen devices they are listed one on top of each-other to make sure information is not cramped next to each other and is easier to view. On  medium / large screen devices, this changes to `col-sm-6` to utilise screen that have a larger area.
 
-   * Onto the final main section of the site which is the maps section where users can select differnt activities and see where in Wales they are without having to leave the site. This is intergrated with the Leaflet API along with JS to make the buttons functional. For example, in the maps section there is a castle button which when the user toggles the button (using the jquery command `$(btnName).click(function(task){})`), it places map markers to show where the top castles are in Wales.
+   * Onto the final main section of the site which is the maps section where users can select different activities and see where in Wales they are without having to leave the site. This is integrated with the Leaflet API along with JS to make the buttons functional. For example, in the maps section there is a castle button which when the user toggles the button (using the jquery command `$(btnName).click(function(task){})`), it places map markers to show where the top castles are in Wales.
 
-   * The site itself features both a nav bar and a footer as well. With the navbar, I have placed it under the main hero image, meaning that it is not visable until the user scrolls down from the top. Once they have scrolled down they are then greated with the navbar which is `sticky-top` meaning that it's at the top of the screen when ever the user is going between differnt sections, but not when they go back to the hero image.
+   * The site itself features both a nav bar and a footer as well. With the navbar, I have placed it under the main hero image, meaning that it is not visible until the user scrolls down from the top. Once they have scrolled down they are then greeted with the navbar which is `sticky-top` meaning that it's at the top of the screen when ever the user is going between different sections, but not when they go back to the hero image.
    The footer shows the important navigation functions for the site for users to quickly go back to certain sections like the weather section and the activity cards section.
 
    * A feature that is on the site is a back to top button that appears when the user scrolls down from the top of the site, allowing the user to quickly go back to top if they wanted to.
 
 
 ### Colours:
-For the colours of the site I based the colour scheme off the colours of the Welsh flag. I primairly used the red from the flad as accent colours to add emphasis on buttons, full stops and exclamation marks to draw the user's attention to those areas even when someone is scrolling throgh the website with no particular aim.
+For the colours of the site I based the colour scheme off the colours of the Welsh flag. I primarily used the red from the flag as accent colours to add emphasis on buttons, full stops and exclamation marks to draw the user's attention to those areas even when someone is scrolling through the website with no particular aim.
 Another reason for choosing `#D50130` as the primary accent colour is also because it's a good contrast over most other colours, meaning that on an accessibility stand point, it'll be easier to identify over the "lighter" colours on the rest of the site.
 
 ## UI 
 ### The Interface:
-The site is built to be modern and mobile first. It's features are also supported across multiple browsers. This is shown in differnt parts of the site:
+The site is built to be modern and mobile first. It's features are also supported across multiple browsers. This is shown in different parts of the site:
    
-   * The hero image is designed to scale on differnt screen sizes but still taking up the equal amount of the screen to make it feel like it's a "landing page", so weather the user arrives to the site on a mobile device or a desktop device with a larger screen, it will seem more like a app (or web app) compared to other travel sites.
+   * The hero image is designed to scale on different screen sizes but still taking up the equal amount of the screen to make it feel like it's a "landing page", so weather the user arrives to the site on a mobile device or a desktop device with a larger screen, it will seem more like a app (or web app) compared to other travel sites.
 
-   * The navbar is then visable once the user scrolls down from the hero image, and is built to be stuck to the top with `sticky-top` from bootstrap's libary. Allowing users to always have the core navigation features to be present. The navbar is deisgned to be semi translucent to create a layering effect, so when users scroll down the page will experience the page "dissapear" behind the nav-bar, which is a deisgn feature present in some modern software. I chose to do this to offer a differnt feeling but to also algin with newer software design present in modern smart devices and computers.
+   * The navbar is then visible once the user scrolls down from the hero image, and is built to be stuck to the top with `sticky-top` from bootstrap's library. Allowing users to always have the core navigation features to be present. The navbar is designed to be semi translucent to create a layering effect, so when users scroll down the page will experience the page "disappear" behind the nav-bar, which is a design feature present in some modern software. I chose to do this to offer a different feeling but to also align with newer software design present in modern smart devices and computers.
 
    * The weather section displays two cities in wales in a side by side view. This allows users to get a quick idea on what the weather in Wales is like. The weather is gathered with the Openweather API that's been styled to show the information quickly yet making sure it's not just a bunch of numbers on screen like other websites show.
-      * Another factor in the interface (which counts as a feature) is the "feels like" temperature as it gives more context on what people should wear whikst visiting differnt parts of Wales.
+      * Another factor in the interface (which counts as a feature) is the "feels like" temperature as it gives more context on what people should wear whilst visiting different parts of Wales.
 
    * Smooth scrolling is included on the entire page even for safari which has been included with some Javascript.
 
@@ -78,16 +78,16 @@ The site is built to be modern and mobile first. It's features are also supporte
 ## Objectives
 ### For the Site Owner:
 * To bring more people to the website
-* To raise awareness on activites in Wales
+* To raise awareness on activities in Wales
 * To bring more people to Wales
 * To increase the cultural awareness of the country
    
 
 ### For the User:
 * To learn something new about Wales
-* To find somehting new to do in Wales
+* To find something new to do in Wales
 * Assist in holiday planning 
-* To assist families in finding activies to do together
+* To assist families in finding activities to do together
 
 ## Wireframe:
 For my wireframes, I used Balsamiq Wireframes to mockup and create the site in different device sizes. Shown below are the different wireframes for Mobile, Tablet and Desktop. I started with the mobile site and worked from there to scale up the design. You can click on the image for a larger size.
@@ -101,7 +101,7 @@ The site was built with accessibility needs in mind.
    * Tested with Lighthouse to improve and fix accessibility concerns
 
 ## Scope
-I built this project to the schedule that was generated on the Code Institute schedule generator which is ahead of the hard deadline for this project (soft-deadline: 19th January 2021, hard-deadline: 2nd Febuary 2021). This meant that it has been my priority to build this website to in line with my soft deadline, to ensure that I am ahead of schedule and maintain a good pace. 
+I built this project to the schedule that was generated on the Code Institute schedule generator which is ahead of the hard deadline for this project (soft-deadline: 19th January 2021, hard-deadline: 2nd February 2021). This meant that it has been my priority to build this website to in line with my soft deadline, to ensure that I am ahead of schedule and maintain a good pace. 
 Initially I had a plan to build another website for this project, based on a scheduling site. However I quickly realised that it would not meet the requirements of this assignment and therefore went to my second idea which was this travel site which I was able to incorporate more features that showed JS usage and also usage of APIs.
 I am happy to report that I feel as though I have built a website that meets the criteria that was provided to me as well as utilising the knowledge I have learnt so far all with providing the timeframe even though I am studying part time.
 
@@ -113,61 +113,61 @@ The approach I took was by splitting the project into different sections (Start,
 ### Start
    * Research and planning.
       * First thing I did for planning was to look at other travel sites and blogs to get an idea of what there is out there and what reviews customers have had for those sites.
-      * Then I layed out a basic layout of what I wanted the site in my wireframes.
+      * Then I laid out a basic layout of what I wanted the site in my wireframes.
       * From there I started with choosing the colour scheme for the site and what accent colours to use.
    * UI and UX planning
       * Beginning with the basic HTML layout, I laid out: 
          * The skeleton of the heading / navbar area.
          * The 4 separate articles and sections within the body (Welcome section, weather, activities section and maps section).
          * The footer of the site.
-      * As usual the story is an important aspect for me when deisgning and building a site, so I thought about how the user would be greated when they first open the website and how the flow of the site would work and how things tie into eachother.
+      * As usual the story is an important aspect for me when designing and building a site, so I thought about how the user would be greeted when they first open the website and how the flow of the site would work and how things tie into each-other.
 
 ### Middle
    * Content
       * I started off with place holders when designing the skeleton of the site. When basic styling was applied and I could see the near finished results of the site, I then replaced the placeholders with actual content for each section.
-         * In the welcome paragrah section there is a short description of what to expect on this site as well as what to expect in Wales.
+         * In the welcome paragraph section there is a short description of what to expect on this site as well as what to expect in Wales.
          * Then comes the weather section which shows the weather for the capital of Wales (Cardiff)
-         * From there we have the activities cards which shows 6 sections consisting of a bit about North and South Wales and activies of differnt types for customers to explore
+         * From there we have the activities cards which shows 6 sections consisting of a bit about North and South Wales and activities of different types for customers to explore
             * On large screen devices, the tiles are displayed side by side
-            * On Small to medium screen devices, the tiles are displayed in a stacking order to make sure there's not too much informaiton in a small screen
-         * After that is the maps section which on page load shows Wales. Buttons are also present for people to click to add markers for locations of differnt activies.
-      * Footer was added which includes basic but essential quick links back to differnt parts of the site
+            * On Small to medium screen devices, the tiles are displayed in a stacking order to make sure there's not too much information in a small screen
+         * After that is the maps section which on page load shows Wales. Buttons are also present for people to click to add markers for locations of different activities.
+      * Footer was added which includes basic but essential quick links back to different parts of the site
 
    * Styling
       * Once I had the core skeleton/layout of the site, I then moved to styling the elements.
          * As mentioned above I have chosen to use the colours of the Welsh flag for accent colours.
-         * The site has a simple off white background that allows the content above to be highlighted easier.
-         * For parts of the site where acceptable, such as the hero seciton. I used a full page (with the use of `100vh`) image to capture the user's attention and also give them the best viewing experience of the images used to show off Wales.
+         * The site has a simple off-white background that allows the content above to be highlighted easier.
+         * For parts of the site where acceptable, such as the hero section. I used a full page (with the use of `100vh`) image to capture the user's attention and also give them the best viewing experience of the images used to show off Wales.
    
 ### Ongoing
    * For the future, I would like to build in a proper booking reference for the site
       * Allowing users to search for accommodation via trip advisor within the site by typing in a city in a search field
-      * Intergrating a seachable maps function to plan trip durations
-      * a log in site to save trip ideas / plans
+      * Integrating a searchable maps function to plan trip durations
+      * A log in site to save trip ideas / plans
 
 ## User Stories
-* As a user, I expect to be able to navigate the site easily an intutively
+* As a user, I expect to be able to navigate the site easily an intuitively
 * As a user I expect to be able learn something new on the site about a new country that I've not visited before
-* As a user I'd expect to come back to the site for inspirations on what to do in Wales (being able to see differnt activites)
+* As a user I'd expect to come back to the site for inspirations on what to do in Wales (being able to see different activities)
 
 ## Features
 ### Current:
 * Hero image with down button welcoming users to the site
-* Live Weather API from openweather calling two differnt city's weather details on page load. 
+* Live weather API from openweather calling two different city's weather details on page load. 
    * Weather data also includes "feels like" temperature which is a feature to let users easily identify what the temperature actually feels like
    * Show casing two cities allows users to see the different (or similar) weather in north or south Wales
-* Activities card section with indivitual expanding cards to show more information
-* Maps section with corrisponding buttons selection to showcase where differnt activites are within Wales
+* Activities card section with individual expanding cards to show more information
+* Maps section with corresponding buttons selection to showcase where different activities are within Wales
 * Footer with quick action links to take users back to certain sections
 * Navbar with `sticky-top` functionality to be always present for the user
-   * Navbar consistis of quick links for easy navigation for the user
+   * Navbar consists of quick links for easy navigation for the user
 * Back to top button that shows after scroll is initiated on page, allowing the user to be taken back up to the top of the page quickly
-* "read more" buttons on activites card with jquery expanding function to review more inoformation. This is done by a default of `display: hide;` then with jquery with a toggle function on button click to show the hidden information
+* "show more" buttons on activities card with jquery expanding function to review more information. This is done by a default of `display: hide;` then with jquery with a toggle function on button click to show the hidden information
 
 
 ### Future:
-* More interactive maps area allowing user to plan transport needs to differnt activites
-* Travel section to take users to travel site allowing them to book accomidation
+* More interactive maps area allowing user to plan transport needs to different activities
+* Travel section to take users to travel site allowing them to book accommodation
 * Animated video for landing page to be more eye catching (scroll movement plays video)
 
 ## Technologies used:
@@ -240,7 +240,7 @@ All CSS was tested using direct input with https://jigsaw.w3.org and no errors w
 * Accessibility contrast issue on Nav bar causing google lighthouse to decrease accessibility score
    * Fixed on the 15th January 2021 by adjusting bootstrap navbar styling
 
-* Maps Marker duplicating ontop of eachother when multiple button click occurs
+* Maps Marker duplicating on-top of each-other when multiple button click occurs
 
 * Weather section overlapping on small to medium devices
    * Fixed on 15th January 2021 by adjusting min-screen size options in style.css file
@@ -255,8 +255,8 @@ All CSS was tested using direct input with https://jigsaw.w3.org and no errors w
    * Fixed on the 23rd December 2020 by adjusting css file with additional padding on button
 
 ### Chrome developer tools
-When building the site, during each section I used Chrome's inspect and developer tools (such as lighthouse) to validate my work and to ensure the site worked accross multiple screen sizes.
-This was also used to debug any structual and styling issues ont he fly
+When building the site, during each section I used Chrome's inspect and developer tools (such as lighthouse) to validate my work and to ensure the site worked across multiple screen sizes.
+This was also used to debug any structural and styling issues on the fly
 
 ### Buttons and Links
 All buttons, links and audio that has been embedded has been accounted for and directs to the right source
@@ -274,7 +274,7 @@ I used Github pages to host the website I built.
 
 ## Credits:
    * [Bootstrap](https://getbootstrap.com/)
-   * [ColorTools](https://www.colortools.net/color_complementary.html) for picking complenmentary and contrasting colours
+   * [ColorTools](https://www.colortools.net/color_complementary.html) for picking complementary and contrasting colours
    * My mentor Spencer for helping me along the way on my first project.
    * Everyone who had a look and commented on peer to peer code review on slack
    * [Stackoverflow](https://www.w3schools.com/howto/howto_css_center-vertical.asp) for vertically and horizontally centring a div:
@@ -292,9 +292,9 @@ I used Github pages to host the website I built.
       // Add smooth scrolling to all links
       $("a").on('click', function(event) {
 
-         // Make sure this.hash has a value before overriding default behavior
+         // Make sure this.hash has a value before overriding default behaviour
          if (this.hash !== "") {
-            // Prevent default anchor click behavior
+            // Prevent default anchor click behaviour
             event.preventDefault();
 
             // Store hash
@@ -306,7 +306,7 @@ I used Github pages to host the website I built.
             scrollTop: $(hash).offset().top
             }, 800, function(){
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
+            // Add hash (#) to URL when done scrolling (default click behaviour)
             window.location.hash = hash;
             });
          } // End if

@@ -74,7 +74,7 @@ function zooMarkers(){
 $('.maps-castle-btn').click(function(){
    castleMarker();
    /*if(marker != undefined){
-        castleGroup.clearLayers(marker);
+        castleGroup.clearLayers(castleGroup);
     } else {
         castleMarker();
     }*/

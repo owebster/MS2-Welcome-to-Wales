@@ -9,7 +9,7 @@ window.addEventListener('load', function() { //south wales api call
             return response.json();
         })
         .then(function(data){
-            console.log(data);
+            //console.log(data);
             const {main, name, weather} = data;
             $('#weather-city').html(`<h3>${name}</h3>`).css("color", "#D50130");
             $('#temperatureDegree').html(`<h4>Currently it's: ${Math.round(main.temp)}˚C with a low of ${Math.round(main.temp_min)}˚C </h4>`);

@@ -321,5 +321,6 @@ I used Github pages to host the website I built.
    * [W3School](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) for back to top button
    * Dev Ed on youtube for tutorial on Javascript
    * [Markdown Tables](https://www.tablesgenerator.com/markdown_tables) for generating markdown table template
+   * All photographs on this site were taken by me.
 
 ### [Back to Top](#an-overview)

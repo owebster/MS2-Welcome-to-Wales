@@ -92,7 +92,7 @@ The site is built to be modern and mobile first. It's features are also supporte
 ## Wireframe:
 For my wireframes, I used Balsamiq Wireframes to mockup and create the site in different device sizes. Shown below are the different wireframes for Mobile, Tablet and Desktop. I started with the mobile site and worked from there to scale up the design. You can click on the image for a larger size.
 
-<img src="" alt="Wireframes of small, medium and large screen sizes" width="576" height="360" />
+<img src="assets/images/MSP2-Wireframes.jpg" alt="Wireframes of small, medium and large screen sizes" width="576" height="360" />
 
 ## Accessibility
 The site was built with accessibility needs in mind. 

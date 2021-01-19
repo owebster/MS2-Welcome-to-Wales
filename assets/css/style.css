@@ -227,7 +227,7 @@ html {
     line-height: 30px;
 }
 
-.castle-txt li > a {
+.castle-txt li > a, .family-txt li > a, .mountains-txt li > a {
     color: #000;
 }
 
@@ -280,7 +280,7 @@ ul.navbar-nav a:hover{
     color: #D50130;
 }
 
-.castle-txt li > a:hover{
+.castle-txt li > a:hover, .family-txt li > a:hover, .mountains-txt li > a:hover{
     text-decoration: none;
     color: #D50130;
 }

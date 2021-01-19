@@ -45,8 +45,7 @@ function mountainsMarker(){
 
 //slate mines
 function slateMineMarkers(){
-    marker = new L.marker([53.1676, -4.0656]).addTo(slateGroup).bindPopup('<p>Welsh slate penrhyn quarry</p>');
-    marker = new L.marker([52.9976, -3.9693]).addTo(slateGroup).bindPopup('<p>Cwmorthin Slate Mine</p>');
+    marker = new L.marker([53.0053, -3.9404]).addTo(slateGroup).bindPopup('<p>Llechwedd slate mine</p>');
 }
 
 function activitiesMarkers(){

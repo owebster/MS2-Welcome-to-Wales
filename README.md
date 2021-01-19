@@ -48,6 +48,7 @@ The site starts off with a full page image of the coast lines of North Wales wit
    * After the weather section, the user is greeted with the information cards section where it starts off with 2 cards about Wales. This is sorted with Bootstrap's `col` class where the cards in mobile view are sorted by `col-12` so on smaller screen devices they are listed one on top of each-other to make sure information is not cramped next to each other and is easier to view. On  medium / large screen devices, this changes to `col-sm-6` to utilise screen that have a larger area.
 
    * Onto the final main section of the site which is the maps section where users can select different activities and see where in Wales they are without having to leave the site. This is integrated with the Leaflet API along with JS to make the buttons functional. For example, in the maps section there is a castle button which when the user toggles the button (using the jquery command `$(btnName).click(function(task){})`), it places map markers to show where the top castles are in Wales.
+   Added in this section are also links to the relevant site for activites shown. The links are targeted with `_blank` so that they'll open in a new tab to allow users to explore more about the shown activities but also still have the original site in another tab to easily get back to.
 
    * The site itself features both a nav bar and a footer as well. With the navbar, I have placed it under the main hero image, meaning that it is not visible until the user scrolls down from the top. Once they have scrolled down they are then greeted with the navbar which is `sticky-top` meaning that it's at the top of the screen when ever the user is going between different sections, but not when they go back to the hero image.
    The footer shows the important navigation functions for the site for users to quickly go back to certain sections like the weather section and the activity cards section.
@@ -259,7 +260,7 @@ When building the site, during each section I used Chrome's inspect and develope
 This was also used to debug any structural and styling issues on the fly
 
 ### Buttons and Links
-All buttons, links and audio that has been embedded has been accounted for and directs to the right source
+All buttons and links have been accounted for and directs to the right source
 
 ## Deployment:
 During this project, I made sure that I spent some of my time focusing on how to properly manage and deploy my project. I used my own IDE (VSCode), Github's desktop app and the IDE's (VS Code) terminal to create branches, test and deploy my code. I primarily did my work in my testing branch as I knew that I would commit to my main branch closer to the time I made my site public. Within the IDE:

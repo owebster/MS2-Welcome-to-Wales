@@ -227,6 +227,10 @@ html {
     line-height: 30px;
 }
 
+.castle-txt li > a {
+    color: #000;
+}
+
 /* Map section */
 
 .maps-castle-btn, .maps-mountain-btn, .maps-slate-btn, .maps-activities-btn, .maps-zoos-btn {
@@ -273,6 +277,11 @@ ul.navbar-nav a:hover{
 
 .down-btn:hover {
     text-emphasis: none;
+    color: #D50130;
+}
+
+.castle-txt li > a:hover{
+    text-decoration: none;
     color: #D50130;
 }
 

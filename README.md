@@ -148,8 +148,12 @@ The approach I took was by splitting the project into different sections (Start,
 
 ## User Stories
 * As a user, I expect to be able to navigate the site easily an intuitively
+   * This functions correctly because I was able to navigate the site easily with provided navigation buttons and on page links. Site functionality works as expected (I can see the weather in the correct section. Activities section and buttons function correctly, which allows easy reading. Maps section shows me the right area)
 * As a user I expect to be able learn something new on the site about a new country that I've not visited before
+   * I was able to see new information about Wales: Like the weather in two different cities. I was able to gain new informaiton about different activites to do in Wales from the section that showed what castles there are in Wales, the food that is famous from Wales from the food section, the family activites that are avaliable from the family section
+   I was also able to learn where these activites are becuase of the maps section towards the bottom on the site
 * As a user I'd expect to come back to the site for inspirations on what to do in Wales (being able to see different activities)
+   * I was able to do this because of the built in links on the page for the different activities, taking me to the right page to read more information. Making this site a one stop shop for everything Wales.
 
 ## Features
 ### Current:

@@ -235,6 +235,7 @@ All CSS was tested using direct input with https://jigsaw.w3.org and no errors w
 <img src="assets/images/css_validator_pass.png" alt="screenshot of CSS w3 Validation completion checks, passed" width="576" height="360" />
 
 ### JS
+All Javascript has been passed through https://jshint.com and no errors occured
 
 ### Known issues
 * Smooth Scrolling for Safari not working for back to top button

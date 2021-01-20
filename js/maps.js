@@ -17,7 +17,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 //castle markers
 var marker;
-var mapMarkerGroup = L.layerGroup().addTo(mymap);
+var mapMarkerGroup = L.layerGroup().addTo(mymap); //adds markers to seperate layer for easy editing
 
 function castleMarker(){ //when user clicks on castle button, add these markers to map to show where the castles are
     marker = new L.marker([51.7696, -4.4620]).addTo(mapMarkerGroup).bindPopup('<p>Laugharne Castle</p>'); //Laugharne Castle
@@ -65,6 +65,7 @@ function zooMarkers(){
     marker = new L.marker([51.41432188514447, -3.3077624731755946]).addTo(mapMarkerGroup).bindPopup('<p>Welsh Hawking Centre</p>');//Welsh Hawking Centre
 }
 
+//function to remove existing markers via their layers
 function deleteMarkers(){
     mapMarkerGroup.clearLayers(mymap);
 }

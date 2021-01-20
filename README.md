@@ -5,7 +5,7 @@
 
 ## An Overview
 For my second milestone project I have chosen to build a travel site for things to do in Wales. This project is built using HTML, CSS, Javascript and accompanying frameworks. Show casing mobile first design, usage of API's and a deeper dive into my current front end development knowledge with more confident use of HTML and CSS but also Javascript.
-I decided on building a sit for visiting Wales because I wanted an easy to view experience for anyone who's deciding on their next getaway.
+I decided on building a site for visiting Wales because I wanted an easy to view experience for anyone who's deciding on their next getaway.
 This site is simplistic to use and has a good flow between different sections which tie into each-other.
 
 In this document I will go through what I've built and why, as well as future goals and testing that's been done to make sure this site is functional in what it offers as well as across multiple device types, from mobile to desktop.
@@ -39,7 +39,7 @@ Such as the local weather, things to do in the area and also a bit of history to
 ### Journey of the Site:
 The site starts off with a full page image of the coast lines of North Wales with a title and short description on the what the site will offer. This gives the user a clear understanding on what the site offers. Meaning that without any further interaction they will know that it is a website to showcase some quick details on Wales.
 
-   * From hero image on at the top, the user can either scroll with their mouse or finger to the enxt section of the site or they can click the down arrow which guides the user down as well.
+   * From hero image on at the top, the user can either scroll with their mouse or finger to the next section of the site or they can click the down arrow which guides the user down as well.
 
    * The user is then greeted with a short paragraph about Wales, giving a quick description about Wales and it's location (more on why this matters in "site owner goals" ).
    
@@ -62,16 +62,16 @@ Another reason for choosing `#D50130` as the primary accent colour is also becau
 
 ## UI 
 ### The Interface:
-The site is built to be modern and mobile first. It's features are also supported across multiple browsers. This is shown in different parts of the site:
+The site is built to be modern and mobile first. Its features are also supported across multiple browsers. This is shown in different parts of the site:
    
-   * The hero image is designed to scale on different screen sizes but still taking up the equal amount of the screen to make it feel like it's a "landing page", so weather the user arrives to the site on a mobile device or a desktop device with a larger screen, it will seem more like a app (or web app) compared to other travel sites.
+   * The hero image is designed to scale on different screen sizes but still taking up the equal amount of the screen to make it feel like it's a "landing page", so weather the user arrives to the site on a mobile device or a desktop device with a larger screen, it will seem more like an app (or web app) compared to other travel sites.
 
    * The navbar is then visible once the user scrolls down from the hero image, and is built to be stuck to the top with `sticky-top` from bootstrap's library. Allowing users to always have the core navigation features to be present. The navbar is designed to be semi translucent to create a layering effect, so when users scroll down the page will experience the page "disappear" behind the nav-bar, which is a design feature present in some modern software. I chose to do this to offer a different feeling but to also align with newer software design present in modern smart devices and computers.
 
-   * The weather section displays two cities in wales in a side by side view. This allows users to get a quick idea on what the weather in Wales is like. The weather is gathered with the Openweather API that's been styled to show the information quickly yet making sure it's not just a bunch of numbers on screen like other websites show.
+   * The weather section displays two cities in Wales in a side by side view. This allows users to get a quick idea on what the weather in Wales is like. The weather is gathered with the Openweather API that's been styled to show the information quickly yet making sure it's not just a bunch of numbers on screen like other websites show.
       * Another factor in the interface (which counts as a feature) is the "feels like" temperature as it gives more context on what people should wear whilst visiting different parts of Wales.
 
-   * Smooth scrolling is included on the entire page even for safari which has been included with some Javascript.
+   * Smooth scrolling is included on the entire page even for Safari which has been included with some Javascript.
 
    * `col` is used throughout the page to make sure every section scales according to screensize and orientation.
 

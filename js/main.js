@@ -48,18 +48,26 @@ $(document).ready(function(){
       });
 
 //family card expanding button
+
 $("#castle-txt-btn").click(function(){
-    $(".castle-txt").slideToggle();
+  $("#castle-txt-btn").toggleClass('castle-txt');
+  if($("#castle-txt-btn").hasClass('castle-txt')){
+    $("#castle-txt-btn").text('show less').css('background-color', '#03A943');
+    $(".castle-txt").slideDown(900);
+  } else {
+    $("#castle-txt-btn").text('show more').css('background-color', '#D50130');
+    $(".castle-txt").slideUp(900);
+  }
 });
 
 $("#food-txt-btn").click(function(){
-    $(".food-txt").slideToggle();
+  $(".food-txt").slideToggle();
 });
 
 $("#family-txt-btn").click(function(){
-    $(".family-txt-section").slideToggle();
+  $(".family-txt-section").slideToggle();
 });
 
 $("#mountains-txt-btn").click(function(){
-    $(".mountains-txt").slideToggle();
+  $(".mountains-txt").slideToggle();
 });

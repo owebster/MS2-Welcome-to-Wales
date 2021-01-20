@@ -19,6 +19,10 @@ body {
     color: #fff;
 }
 
+.castle-txt li > a, .family-txt li > a, .mountains-txt li > a {
+    color: #000;
+}
+
 footer {
     background-color: #D50130;
 }
@@ -225,10 +229,6 @@ html {
     border-radius: 15px;
     text-align: center;
     line-height: 30px;
-}
-
-.castle-txt li > a, .family-txt li > a, .mountains-txt li > a {
-    color: #000;
 }
 
 /* Map section */

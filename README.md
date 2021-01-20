@@ -242,6 +242,7 @@ All CSS was tested using direct input with https://jigsaw.w3.org and no errors w
    * Fixed on the 15th January 2021 by adjusting bootstrap navbar styling
 
 * Maps Marker duplicating on-top of each-other when multiple button click occurs
+   * Fixed on the 20th January 2021 by adding an addition function for clearing all layers, then adding this function to the `.click()`calls on each button click
 
 * Weather section overlapping on small to medium devices
    * Fixed on 15th January 2021 by adjusting min-screen size options in style.css file

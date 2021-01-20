@@ -61,13 +61,34 @@ $("#castle-txt-btn").click(function(){
 });
 
 $("#food-txt-btn").click(function(){
-  $(".food-txt").slideToggle();
+  $("#food-txt-btn").toggleClass('food-txt');
+  if($("#food-txt-btn").hasClass('food-txt')){
+    $("#food-txt-btn").text('show less').css('background-color', '#03A943');
+    $(".food-txt").slideDown(900);
+  } else {
+    $("#food-txt-btn").text('show more').css('background-color', '#D50130');
+    $(".food-txt").slideUp(900);
+  }
 });
 
 $("#family-txt-btn").click(function(){
-  $(".family-txt-section").slideToggle();
+  $("#family-txt-btn").toggleClass('family-txt-section');
+  if($("#family-txt-btn").hasClass('family-txt-section')){
+    $("#family-txt-btn").text('show less').css('background-color', '#03A943');
+    $(".family-txt-section").slideDown(900);
+  } else {
+    $("#family-txt-btn").text('show more').css('background-color', '#D50130');
+    $(".family-txt-section").slideUp(900);
+  }
 });
 
 $("#mountains-txt-btn").click(function(){
-  $(".mountains-txt").slideToggle();
+  $("#mountains-txt-btn").toggleClass('mountains-txt');
+  if($("#mountains-txt-btn").hasClass('mountains-txt')){
+    $("#mountains-txt-btn").text('show less').css('background-color', '#03A943');
+    $(".mountains-txt").slideDown(900);
+  } else {
+    $("#mountains-txt-btn").text('show more').css('background-color', '#D50130');
+    $(".mountains-txt").slideUp(900);
+  }
 });
